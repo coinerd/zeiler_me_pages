@@ -1,0 +1,997 @@
+[
+  {
+    "title": "IT & Medien, Geschichte, Deutsch",
+    "path": "/",
+    "summary": "Herzlich Willkommen auf den Seiten von Detlef und Julian Zeiler."
+  },
+  {
+    "title": "IT & Medien, Geschichte, Deutsch",
+    "path": "/home/",
+    "summary": "Herzlich Willkommen auf den Seiten von Detlef und Julian Zeiler."
+  },
+  {
+    "title": "Detlef Zeiler",
+    "path": "/detlef/",
+    "summary": "Für den Unterricht gibt es bereits sehr gute Internet-Portale wie z.B. die \"Zentrale für Unterrichtsmedien\". Im Laufe der Jahre habe ich jedoch sehr gute Erfahrungen damit gemacht, eigenständig regionale Geschichts- und Medienprojekte auszuarbeiten und ins Netz zu stellen. Auf diese Weise konnte ich mit vielen Gleichgesinnten ins Gespräch kommen und Kontakte aufbauen. Das Resultat und der Ausgangspunkt dafür ist diese Homepage."
+  },
+  {
+    "title": "Julian Zeiler",
+    "path": "/julian/",
+    "summary": "Herzlich Willkommen auf meiner Homepage.Da ich gelernter IT-Systemkaufmann bin findet sich auf diesen Seiten vieles zum Thema Computer, Internet und Informatik."
+  },
+  {
+    "title": "Deutsch",
+    "path": "/detlef/deutsch/",
+    "summary": "Lesen und Schreiben bleiben auch im Zeitalter multimedialer Vernetzung grundlegende Kulturtechniken, ohne die man sich kaum sinnvoll orientieren kann."
+  },
+  {
+    "title": "About me (old)",
+    "path": "/julian/about-me/",
+    "summary": "My fascination for computers began in 1984 when my father bought his first PC - a Schneider Joyce. At first I only played the game Batman, but soon I discovered the word processing and database programs from my father."
+  },
+  {
+    "title": "Geschichte",
+    "path": "/detlef/geschichte/",
+    "summary": "Was im Zeitalter des Internet sinnvoll ist, vielleicht erst richtig sinnvoll wird, ist der überregionale Austausch von Erfahrungen, die sich aus der Auswertung geschichtlichen Wissens ergeben. Jede Generation erfindet sich neu, blickt auf andere Weise zurück auf die Erfahrungen früherer Generationen, als dies in den Geschichtsbüchern festgehalten ist. Als Einstieg in ein geschichtliches Thema hat sich \"oral history\", die Befragung von Zeitzeugen und lokalgeschichtlichen Experten, bewährt. (Für uns z.B. Ludwig Merz, B. Heukemes, Karl-Heinz Kischka u.a.) Dabei kommt man bei aller \"Globalisierung\" nicht darum herum, aus der eigenen und sozialen Position heraus Stellung zu beziehen.Was ist in der Region in den vorhergehenden Generationen passiert? Weicht dies ab von der nationalen oder internationalen Geschichte? Wie verlässlich sind die Aussagen der Großelterngeneration?"
+  },
+  {
+    "title": "Artikel",
+    "path": "/julian/artikel/",
+    "summary": "Die neue Version des Webs (2.0) bedeutet nicht, dass hier eine völlig neue Technologie zum Einsatz kommt. Denn erstens ist es nicht eine Technologie - es sind mehrere - und zweitens gibt es diese Technologien bereits seit einer ganzen Weile und drittens ist das Web 2.0 auch eine Art neue Sichtweise auf das Internet."
+  },
+  {
+    "title": "Impressum",
+    "path": "/detlef/impressum/",
+    "summary": "MOPAED Medienpädagoge, Jornalist, Lehrer."
+  },
+  {
+    "title": "Contact / Impressum",
+    "path": "/julian/contact/",
+    "summary": "Sie können mich unter meiner E-Mail Adresse:"
+  },
+  {
+    "title": "Jeremia",
+    "path": "/detlef/jeremia/",
+    "summary": "Vom Jahr 629 bis 588 vor Christus prophezeite Jeremia in Jerusalem und Juda, dass das jüdische Volk von Gott bestraft würde, wenn es seinen „gottlosen“ Lebenswandel nicht aufgeben und sich nicht an die Gesetze halten würde."
+  },
+  {
+    "title": "Techzap",
+    "path": "/julian/techzap/",
+    "summary": "n der Techzap Rubrik finden sich kurze auf den Punkt gebrachte Lösungen auf verschiedene Fragen der IT."
+  },
+  {
+    "title": "Medien",
+    "path": "/detlef/medien/",
+    "summary": "Ohne Lesen und Schreiben zu können, wird man auch im Multimedia-Bereich ein Analphabet bleiben. Aber ohne Medieneinsatz geht in immer mehr Lebensbereichen schon lange nichts mehr."
+  },
+  {
+    "title": "Work (old)",
+    "path": "/julian/work/",
+    "summary": "What I’ve done"
+  },
+  {
+    "title": "Projekte",
+    "path": "/detlef/projekte/",
+    "summary": "Fast alle Projekte, die ich bisher durchgeführt habe, liegen im Bereich Regionalgeschichte. Unterstützt wurde ich dabei von lokalgeschichtlichen Expertzen wie Dr. Berndmark Heukemes, Dr. Jochen Goetze, Dr. Karl-Heinz Kischka und dessen Familie, und vor allem von Ludwig Merz:"
+  },
+  {
+    "title": "Erörterung",
+    "path": "/detlef/deutsch/errterung/",
+    "summary": "„Einem Menschen mehr Schaden zugefügt zu haben, als man wiedergutmachen kann,[…] veranlasst den Täter, den Geschädigten zu hassen.“ (Thomas Hobbes 1996 [1651], 83)"
+  },
+  {
+    "title": "Alexander von Humboldts Südamerikareise",
+    "path": "/detlef/geschichte/alexander-von-humboldts-sdamerikareise/",
+    "summary": "Alexander von Humboldt und seine Reise durch Neu-Granada."
+  },
+  {
+    "title": "Gerüchte – Rumores (Drehbuch und Storyboard)",
+    "path": "/detlef/medien/geruechte-rumores-drehbuch/",
+    "summary": "Mehrere Nah- oder Großaufnahmen von Schülern, die sich etwas ins Ohr flüstern. Zu hören ist nur folgender Text, der sich immer wiederholt:"
+  },
+  {
+    "title": "Der Heiligenberg bei Heidelberg",
+    "path": "/detlef/projekte/heiligenberg/",
+    "summary": "Ein Projekt der \"Mobilen Pädagogen\" (MOPÄD)"
+  },
+  {
+    "title": "Agile Methoden in der Softwareentwicklung",
+    "path": "/julian/artikel/agile-methoden-in-der-softwareentwicklung/",
+    "summary": "Die agile Softwareentwicklung gilt besonders in Web 2.0 Projekten als die beste Vorgehensweise in der Umsetzung des Projekts."
+  },
+  {
+    "title": "Design",
+    "path": "/julian/techzap/design/",
+    "summary": "Problem: Microsoft Paint erstellt nur die Web-Grafikformate .jpg, .gif und .png - Das .ico Format für favicon-Dateien wird nicht unterstützt."
+  },
+  {
+    "title": "Projects",
+    "path": "/julian/work/projects/",
+    "summary": "www.aesconweb.de (currently offline)"
+  },
+  {
+    "title": "Essay-Themen",
+    "path": "/detlef/deutsch/essay-themen/",
+    "summary": ""
+  },
+  {
+    "title": "Alexis de Tocqueville über die plötzliche Grausamkeit in einer unglücklichen Zeit",
+    "path": "/detlef/geschichte/ber-die-pltzliche-grausamkeit-in-einer-unglcklichen-zeit/",
+    "summary": "Alexis de Tocqueville (1805-1859) ist vor allem mit seinem Buch „Über die Demokratie in Amerika“ (1835/1840) bekannt geworden. In seinen „Erinnerungen“ hinterlässt er aber auch ein lebensnahes historisches Dokument über die Geschehnisse der 1848er Revolution und der niedergeschlagenen Juniaufstände der Arbeiter von 1848. So schildert er, was für Auswirkungen die Bürgerkriegsatmosphäre auf seine Nachbarn, die bei der Nationalgarde Dienst taten, und auf ihn selbst hatte:"
+  },
+  {
+    "title": "Medienerziehung",
+    "path": "/detlef/medien/medienerziehung/",
+    "summary": "Gestaltung von audiovisuellen Medien"
+  },
+  {
+    "title": "Die Elsenz und der Kraichgau",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/",
+    "summary": "Vier Schülergruppen der Klasse TG12 des Technischen Gymnasiums der Friedrich-Hecker-Schule haben Material zu folgenden Themen zusammen gestellt:"
+  },
+  {
+    "title": "Auswirkungen von Ideologien der Open Source Lizenzen",
+    "path": "/julian/artikel/auswirkungen-von-ideologien-der-open-source-lizenzen/",
+    "summary": "Linux ist Open Source. Das wissen wohl die meisten, die schon einmal von diesem Betriebssystem gehört haben. Vielleicht haben einige auch schon von der General Public License (GPL) gehört, der Lizenz, unter der ein großer Anteil der Open Source Software - auch Linux - veröffentlicht wurde und wird. Aber welche Auswirkungen diese und andere Lizenzen für Autoren, Entwickler und Anwender dieser Programme (oder auch Programmteile - so genannte Bibliotheken) haben, darüber wissen die Wenigsten Bescheid. Dieser Beitrag soll diesen Mißstand ausgleichen. Es wird über die verbreitetsten Lizenzmodelle im Open Source Bereich berichtet und deren Auswirkungen für Anwender und Programmierer aufgezeigt."
+  },
+  {
+    "title": "Programmierung",
+    "path": "/julian/techzap/programmierung/",
+    "summary": ""
+  },
+  {
+    "title": "Selfmade",
+    "path": "/julian/work/selfmade/",
+    "summary": "I designed and programmed this website for my father. He is a history and german teacher. The site is very comprehensive, so I decided to write a content management system for it. I really like it. (update on 2006.05.25: We now use the bricolage CMS)"
+  },
+  {
+    "title": "Fremdenfeindlichkeit",
+    "path": "/detlef/deutsch/fremdenfeindlichkeit/",
+    "summary": "Aus: „Die große Wanderung“ von Hans Magnus Enzensberger"
+  },
+  {
+    "title": "Alexis de Tocqueville über Grausamkeit in einer unglücklichen Zeit",
+    "path": "/detlef/geschichte/alexis-de-tocqueville-ber-grausamkeit-in-einer-unglcklichen-zeit/",
+    "summary": "Alexis de Tocqueville (1805-1859 ist vor allem mit seinem Buch „Über die Demokratie in Amerika“ (1835/1840) bekannt geworden. In seinen „Erinnerungen“ hinterlässt er aber ein lebensnahes historisches Dokument über die Geschehnisse der 1848er Revolution und der niedergeschlagenen Juniaufstände der Arbeiter von 1848. So schildert er, was für Auswirkungen die Bürgerkriegsatmosphäre auf seine Nachbarn, die bei der Nationalgarde Dienst taten, und auf ihn selbst hatte:"
+  },
+  {
+    "title": "Dritte Gewalt - Strafvollzug",
+    "path": "/detlef/projekte/dritte-gewalt-strafvollzug/",
+    "summary": "Am Beispiel der Justizvollzugsanstalt \"Fauler Pelz\" in Heidelberg"
+  },
+  {
+    "title": "Was ist das Web 2.0?",
+    "path": "/julian/artikel/was-ist-das-web-20/",
+    "summary": "Die neue Version des Webs (2.0) bedeutet nicht, dass hier eine völlig neue Technologie zum Einsatz kommt. Denn erstens ist es nicht eine Technologie - es sind mehrere - und zweitens gibt es diese Technologien bereits seit einer ganzen Weile und drittens ist das Web 2.0 auch eine Art neue Sichtweise auf das Internet."
+  },
+  {
+    "title": "Server",
+    "path": "/julian/techzap/server/",
+    "summary": ""
+  },
+  {
+    "title": "Homo Faber",
+    "path": "/detlef/deutsch/homo-faber/",
+    "summary": ""
+  },
+  {
+    "title": "Berichte aus einer deutschen Diktatur",
+    "path": "/detlef/geschichte/berichte-aus-einer-deutschen-diktatur/",
+    "summary": "„Die haben sogar promoviert auf Methoden, wie man Leute weichbekommt.“"
+  },
+  {
+    "title": "Heidelberg im Mittelalter",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/",
+    "summary": "Inhaltsverzeichnis:"
+  },
+  {
+    "title": "Technik",
+    "path": "/julian/techzap/technik/",
+    "summary": "Problem: Der VMware Player nimmt die Kombination Strg+Alt+F1 oder eine andere Strg+Alt+Fn Kombination nicht an"
+  },
+  {
+    "title": "Nayirah",
+    "path": "/detlef/deutsch/nayirah/",
+    "summary": "Auszug aus „Die Maske“ (Roman, von Fuminori Nakamura. Diogenes-Verlag, 2018, S. 208-2011)"
+  },
+  {
+    "title": "Berthold von Rohrbach",
+    "path": "/detlef/geschichte/berthold-von-rohrbach/",
+    "summary": "Grausam und schrecklich war das Ende eines Rohrbachers, der sich mit der kirchlichen Justiz angelegt hatte."
+  },
+  {
+    "title": "Heidelberger Schulgeschichten",
+    "path": "/detlef/projekte/heidelberger-schulgeschichten/",
+    "summary": "Eines der am wenigsten drängenden Probleme zur Zeit der Heidelberger Stadtgründung im 12. Jahrhundert war der Aufbau von Schulen. Im kras­sen Gegensatz zur römischen Tradition, die im Zeitalter der Völkerwan­derung rasch zerfallen war, galt Bildung im Mittelalter der weltlichen Oberschicht als nicht besonders erstrebenswert"
+  },
+  {
+    "title": "Needful Things - \"In einer kleinen Stadt\"",
+    "path": "/detlef/deutsch/needful-things---in-einer-kleinen-stadt/",
+    "summary": "In einer kleinen Stadt– von Stephen King"
+  },
+  {
+    "title": "Besuch in Simferopol 2018",
+    "path": "/detlef/geschichte/besuch-in-simferopol-2018/",
+    "summary": "Mein Besuch unserer Partnerstadt Simferopol"
+  },
+  {
+    "title": "Neuenheim ist halb Europa",
+    "path": "/detlef/projekte/neuenheim/",
+    "summary": "1990, Überarbeitet im Februar 1996"
+  },
+  {
+    "title": "Texterörterung",
+    "path": "/detlef/deutsch/texterrterung/",
+    "summary": "Auszüge aus dem „Leviathan“ (S. 40 – 43)"
+  },
+  {
+    "title": "Ceausescu",
+    "path": "/detlef/geschichte/ceausescu/",
+    "summary": "Die Kindheit Nicolae Ceausescus (Aus \"Demokratie in Deutschland\", RAAbits Sozialkunde/Politik, Februar 1994)"
+  },
+  {
+    "title": "Old Providence - Die Insel Providencia",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/",
+    "summary": "Providencia ist eine kleine Insel in der Karibik, etwa 7 KM lang und 4 KM breit, auf der knapp 4000 Menschen leben. Sie liegt etwa 90 KM nördlich der etwas größeren und bekannteren Ferieninsel San Andres und ist nur von dieser aus zu erreichen. Von der Lage her könnte sie eigentlich zu Mittelamerika gehören, denn sie liegt näher an Nicaragua, Costa Rica oder Panama als an Kolumbien. Ich bin zwischen 1997 und 1999 mehrmals dorthin geflogen, um tauchen zu lernen und die Ruhe zu genießen, die man in anderen Ferienorten kaum noch findet."
+  },
+  {
+    "title": "Textinterpretation",
+    "path": "/detlef/deutsch/textinterpretation-1/",
+    "summary": "Kurt Kauter: Die manipulierte Masse"
+  },
+  {
+    "title": "Das Eiserne Kreuz (Heiner Müller)",
+    "path": "/detlef/geschichte/das-eiserne-kreuz/",
+    "summary": "Im April 1945 beschloß in Stargard in Mecklenburg ein Papierhändler, seine Frau, seine vierzehn­jährige Tochter und sich selbst zu erschießen. Er hatte durch Kunden von Hitlers Hochzeit und Selbstmord gehört."
+  },
+  {
+    "title": "Textinterpretation (Beispiele)",
+    "path": "/detlef/deutsch/textinterpretation/",
+    "summary": ""
+  },
+  {
+    "title": "Die \"Mittelschicht\" (Diskussionsthemen)",
+    "path": "/detlef/geschichte/die-mittelschicht-diskussionsthemen/",
+    "summary": "Diskussionsthemen (vor der \"Corona-Krise\")"
+  },
+  {
+    "title": "Versuch einer Beschreibung menschlicher Moral",
+    "path": "/detlef/deutsch/versuch-einer-beschreibung-menschlicher-moral/",
+    "summary": "Wenn man einmal annimmt, dass Tiere instinktgeleitet sind und sich innerhalb der Vorgaben ihrer Instinkte bewegen, dann könnte man dies als Mindestmaß an Verhalten im Sinne der Lebenserhaltung ansehen. Da nur minimale Abweichungen möglich sind, würde ich hier eine Linie ziehen, die als Richtschnur für natürliches Verhalten gilt. (1)"
+  },
+  {
+    "title": "Faschismus als Massenbewegung",
+    "path": "/detlef/geschichte/faschismus-als-massenbewegung/",
+    "summary": "• Anmerkungen zu Hitler. Sebastian Haffner. Fischer-Taschenbuch, 1981."
+  },
+  {
+    "title": "Versuch einer kurzen Beschreibung einer menschlichen Moral",
+    "path": "/detlef/deutsch/versuch-einer-kurzen-beschreibung-einer-menschlichen-moral/",
+    "summary": ""
+  },
+  {
+    "title": "Faschismus im 21. Jahrhundert?",
+    "path": "/detlef/geschichte/faschismus-als-massenbewegung-2/",
+    "summary": "Der Essay wurde von mir gelöscht. Einige Aussagen sind durch die aktuellen Entwicklungen überholt. Und das Thema ist mir heutzutage, in den politisch \"korrekten\" Zeiten, etwas zu heikel. Je weniger Meinungsäußerungen bei uns noch wirklich frei sind, desto mehr wird die \"Freiheit\" wie ein letztes Statussymbol westlicher Gesellschaften immer wieder betont (- was ja in wirklich freien Gesellschaften gar nicht notwendig wäre)."
+  },
+  {
+    "title": "Vom Text zum Schaubild",
+    "path": "/detlef/deutsch/vom-text-zum-schaubild/",
+    "summary": "Ablauf Tarifvertragsverhandlungen"
+  },
+  {
+    "title": "Gerüchte",
+    "path": "/detlef/geschichte/gerchte/",
+    "summary": "\"Aus Lügen, die wir ständig wiederholen, werden Wahrheiten, die unser tägliches Leben bestimmen.\" (Georg Wilhelm Friedrich Hegel, 1770-1831, deutscher Philosoph)"
+  },
+  {
+    "title": "Geschichte des Neckars und des Philosophenwegs (Ludwig Merz/Otto Jäger)",
+    "path": "/detlef/geschichte/geschichte-des-neckars-und-des-philosophenwegs-ludwig-merzotto-jger/",
+    "summary": "Ja, das war je nach Besitz der Leute. Die Kinder von den Bauersleuten, die haben viel auf dem Feld schaffen müssen, die Mädle und die Bube. Wenn ich das heute betrachte, aus dieser Zeit, muss ich sagen: Meine Schul­kameraden, Volksschule, die haben schaffen müssen! Die sind morgens mit in den Stall, da ist der Stall ausgemistet worden. Und dann sind sie erst in die Schule gegangen. Das war für die Kinder eine Plage! Und wenn sie heimge­kommen sind, haben sie ein Stück Brot gekriegt - und dann ist es raus aufs Feld gegangen. Die haben schaffen müssen - grad in dem Alter ab 11 Jahren, da waren die schwer strapaziert. Und dann sind sie natürlich auch manchmal nicht mit dem Schulunterricht mitge­kommen. Da sind welche 'hocke geblieben' und mussten die Klasse nochmal machen."
+  },
+  {
+    "title": "Grenzen",
+    "path": "/detlef/geschichte/grenzen/",
+    "summary": "Über Grenzen ist schon viel geredet oder geschrieben worden. Zurzeit in erster Linie wegen der zunehmenden Flüchtlingsströme aus unterentwickelten oder in Kriege verwickelten Ländern."
+  },
+  {
+    "title": "Grenzen II",
+    "path": "/detlef/geschichte/grenzen-ii/",
+    "summary": "Wer sich auf das Thema „Grenzen“ einlässt, der wird merken, dass dieses Thema sich mit einigem Abstand immer wieder neu stellt und andere Seiten zeigt. Also nochmal von ganz vorne:"
+  },
+  {
+    "title": "Grenzen III",
+    "path": "/detlef/geschichte/grenzen-iii/",
+    "summary": "Vorweg: Ich möchte die netten Freunde, die ich unter den hier lebenden Türken, den Deutschen mit türkischen Wurzeln und den Russlands-Deutschen gefunden habe, nicht missen. Sie gehören zu Deutschland, sind eine Bereicherung. Also alle Versuche, hier künstlich Grenzen aufzubauen, sind m.E. künstlich erzeugte Spaltereien."
+  },
+  {
+    "title": "Hooligans - Angry Young Men",
+    "path": "/detlef/geschichte/hooligans---angry-young-men/",
+    "summary": "„Hooligans“, so heißt der 2005 erschienene Film, für den die deutsche Regisseurin Lexi Alexander mehrfach ausgezeichnet wurde. Keine leichte Kost für zarte Gemüter, aber eine ehrliche Darstellung der Szene, die für viele fremd und abstoßend wirkt, weil sie vermuten, es gehe dort nur um willenlose Saufbolde ohne jegliche Hirnsubstanz. Mitnichten!"
+  },
+  {
+    "title": "Integration",
+    "path": "/detlef/geschichte/integration/",
+    "summary": "Im Gegensatz zur öffentlich geäußerten Skepsis sind die „Teil­habe­chancen von Minderheiten“ heute „wesentlich besser als noch vor zwanzig, dreißig oder fünfzig Jahren.“ (Aladin El-Mafaalani, „Das Integra­tionsparadox. Warum gelungene Integration zu mehr Konflikten führt.“ S. 11) „Im Schuldienst und in der Wissenschaft, bei der Polizei und in der öffentlichen Verwaltung, in der freien Wirtschaft und im Kul­tur­­betrieb werden wichtige Aufgaben von Menschen mit Migrations­hintergrund wahrgenommen. Natürlich noch nicht so viele, wie es ihrem Bevölkerungsanteil entspricht, aber viel mehr als je zu­vor.“ (A.a.O., S.12) Aber wenn „Integration oder Inklusion oder Chancen­gleichheit gelingt, dann wird die Gesellschaft nicht homogener, nicht harmonischer und nicht konfliktfreier. Nein. Das Gegenteil ist viel wahrscheinlicher. Die zentrale Folge gelungener Inte­gration ist ein erhöhtes Konfliktpotential. […] Mehr Menschen können und wollen partizipieren, sich aktiv beteiligen und etwas abbekommen. Alle an einem Tisch. Immer mehr und immer unterschiedlichere Menschen sitzen mit am Tisch und wollen ein Stück vom Kuchen. Wie kommt man eigentlich auf die Idee, dass es ausgerechnet jetzt harmonischer werden soll? Diese Vorstellung ist entweder naiv oder hegemonial. Das wäre Multikulti-Romantik oder Monokulti-Nostalgie. Die Realität ist offen­sichtlich eine ganz andere. (a.a.O., S. 44-45)"
+  },
+  {
+    "title": "Jeremia",
+    "path": "/detlef/geschichte/jeremia/",
+    "summary": "Vom Jahr 629 bis 588 vor Christus prophezeite Jeremia in Jerusalem und Juda, dass das jüdische Volk von Gott bestraft würde, wenn es seinen „gottlosen“ Lebenswandel nicht aufgeben und sich nicht an die Gesetze halten würde."
+  },
+  {
+    "title": "Kontrollsysteme",
+    "path": "/detlef/geschichte/kontrollsysteme/",
+    "summary": "2018 war nicht nur ein Jahr, in dem sich katastrophale Klimaentwicklungen abzeichneten, es zeigten sich auch klarer als zuvor Zusammenhänge bei der zunehmenden Digitalisierung unseres Lebens."
+  },
+  {
+    "title": "Künstliche Feindschaften",
+    "path": "/detlef/geschichte/knstliche-feindschaften/",
+    "summary": "Natürliche Feinde gibt es, seit es Raubtiere gibt, die Pflanzenfresser oder auch andere Raubtiere jagen. Menschen, also wir, sind Raubtiere. Vielleicht nicht mehr in freier Natur, also da, wo man in alten Zeiten immer auf der Hut sein musste, weil das Gesetz von Fressen und Gefressen werden regierte, nein, wir züchten das, was wir früher erjagen mussten in begrenzten Räumen, in Herden oder, immer häufiger, in Ställen. Wir sind Züchter. Unsere letzte Züchtung, nachdem wir uns die Erde weitgehend untertan gemacht haben, sind wir selbst. Aber darüber später."
+  },
+  {
+    "title": "Mein  Onkel Emil",
+    "path": "/detlef/geschichte/mein--onkel-emil/",
+    "summary": "Emil Zeiler (1919-2011) lebte bis 2011 als pensionierter Lehrer und Gelegenheitsdichter in Kitzingen. (Biographische Notizen später auf dieser Seite)."
+  },
+  {
+    "title": "Mein Großvater Rudolf Zeiler",
+    "path": "/detlef/geschichte/mein-grovater-rudolf-zeiler/",
+    "summary": "Mein Großvater Rudolf Zeiler (1893 - 1973) war Lehrer und evangelischer Küster. Er wurde 1919 aus einem deutschen Dorf im Süden Russlands von der Roten Armee vertrieben, lebte und arbeitete einige Jahre in Bessarabien, danach in Siebenbürgen. Hier im Bild als Pensionist in Österreich mit seiner Frau Alma Zeiler, mit der er 7 Kinder hatte. (Eines war auf der Flucht aus Russland unterwegs gestorben. Sechs seiner Kinder haben ebenfalls Familien gegründet.)"
+  },
+  {
+    "title": "Menschenwürde und Rechtsstaat",
+    "path": "/detlef/geschichte/was-mich-betrifft/",
+    "summary": "Statt eines Vorworts: Grundgesetz Artikel 1:"
+  },
+  {
+    "title": "Modellskizze einer menschlichen Moral",
+    "path": "/detlef/geschichte/modellskizze-einer-menschlichen-moral/",
+    "summary": "Wenn man einmal annimmt, dass Tiere instinktgeleitet sind und sich innerhalb der Vorgaben ihrer Instinkte bewegen, dann könnte man dies als Mindestmaß an Verhalten im Sinne der Lebenserhaltung ansehen. Da nur minimale Abweichungen möglich sind, würde ich hier eine Linie ziehen, die als Richtschnur für natürliches Verhalten gilt. (1)"
+  },
+  {
+    "title": "Nationen",
+    "path": "/detlef/geschichte/nationen/",
+    "summary": "(Auszug aus „Die große Wanderung“. H.M. Enzensberger)"
+  },
+  {
+    "title": "Nicht-tödliche Waffen",
+    "path": "/detlef/geschichte/nicht-tdliche-waffen/",
+    "summary": "Über die Gefahren der „Nicht-tödlichen Waffen“"
+  },
+  {
+    "title": "Pavel Thalmann (1901 - 1980)",
+    "path": "/detlef/geschichte/thalmann/",
+    "summary": "(Detlef Zeiler, Jürgen Künzig; Nizza, April 1975)"
+  },
+  {
+    "title": "Sind wir (nur) Tiere?",
+    "path": "/detlef/geschichte/sind-wir-nur-tiere/",
+    "summary": "Wieso nennen wir Leute, die (uns oder anderen) Böses tun, oft Schweine, Hunde oder Ratten? Keine dieser Tierarten hat jemals solche kriegerischen Metzeleien veranstaltet, Giftgas versprüht oder Atombomben geworfen wie Menschen, war also auch nur annähernd so böse wie es Menschen sein können. Kein Tier könnte, so wie Sergej W. am 11. April 2017, einen heimtückischen Bomben-Anschlag auf den Bus einer mit 28 Spielern besetzten Fußballmannschaft verüben, um mit Optionsscheinen gegen den Aktienkurs des Fußballunternehmens an der Börse zu wetten. Kein Tier könnte Gerüchte streuen, um mit falschen Behauptungen andere Tiere zu mobben oder zur Hetzmeute zu formen."
+  },
+  {
+    "title": "Über die Grausamkeit",
+    "path": "/detlef/geschichte/ber-die-grausamkeit/",
+    "summary": "(Auszug aus „Essais“, Michel de Montaigne, 1533-1592)"
+  },
+  {
+    "title": "Zeit der Intrigen",
+    "path": "/detlef/geschichte/zeit-der-intrigen/",
+    "summary": "Fast alle Kulturen schufen sich einen Mythos vom Überleben in einer immer auch gefährlichen Umwelt, einen Mythos, der Sinn stiftete und die Welt und die eigene Stellung des Menschen in der Welt über den jeweiligen Augenblick hinaus erläuterte."
+  },
+  {
+    "title": "Essay",
+    "path": "/detlef/deutsch/essay-themen/essay/",
+    "summary": ""
+  },
+  {
+    "title": "Armer und reicher Teufel",
+    "path": "/detlef/deutsch/fremdenfeindlichkeit/armer-und-reicher-teufel/",
+    "summary": "„Armer und reicher Teufel“, so heißt eine Kurzerzählung des berühmten Philosophen Ernst Bloch, die 1974 in „Geschichten zum Nachdenken“ von Rudolf Kreis veröffentlicht wurde. Bloch, der von 1885 bis 1977 gelebt und zuletzt in Tübingen Philosophie gelehrt hat, thematisiert in dieser 1930 erstmals erschienenen parabelhaften Erzählung die Frage, inwieweit Menschen willkürlich in das Leben anderer eingreifen dürfen."
+  },
+  {
+    "title": "In einer kleinen Stadt",
+    "path": "/detlef/deutsch/needful-things---in-einer-kleinen-stadt/in-einer-kleinen-stadt/",
+    "summary": "Needful Things (In einer kleinen Stadt) – von Stephen King"
+  },
+  {
+    "title": "Das Eiserne Kreuz (Autor: Heiner Müller)",
+    "path": "/detlef/deutsch/textinterpretation/das-eiserne-kreuz/",
+    "summary": "Interpretation einer „Kurzgeschichte“ von Heiner Müller (D. Zeiler)"
+  },
+  {
+    "title": "Idylle und Realität unter Ceaucescu",
+    "path": "/detlef/geschichte/ceausescu/idylle-und-realitt-unter-ceaucescu/",
+    "summary": "Grausame Menschen zeigen oft eines Vorliebe für die Inszenierung einer heilen Welt, einer Idylle. Beinahe alle klassischen Diktatoren betrieben einen großen Aufwand dabei, sich als tierlieb oder kinderlieb zu zeigen. Insbesondere Ceaucescu hatte ein Faible für entsprechende Inszenierungen:"
+  },
+  {
+    "title": "Geräusch",
+    "path": "/detlef/geschichte/faschismus-als-massenbewegung/gerusch/",
+    "summary": "Geräusch (Schweres Gerät wird verschoben)"
+  },
+  {
+    "title": "Rudolf Zeiler",
+    "path": "/detlef/geschichte/mein-grovater-rudolf-zeiler/rudolf-zeiler/",
+    "summary": ""
+  },
+  {
+    "title": "Altersgemäße Schwerpunktsetzungen",
+    "path": "/detlef/medien/medienerziehung/altersgemaesse-schwerpunktsetzungen/",
+    "summary": "Die bisher beschriebenen Aufgaben und didaktischen Grundsätze werden im folgenden unter dem Aspekt altersspezifischer Erfahrungen akzentuiert."
+  },
+  {
+    "title": "Geographische Lage",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geographische-lage/",
+    "summary": "Gesteinsschichten im Sinsheimer Raum"
+  },
+  {
+    "title": "Anmerkungen",
+    "path": "/detlef/projekte/dritte-gewalt-strafvollzug/anmerkungen/",
+    "summary": "Vgl. dazu das Heft Nr. 4, 1994 der \"Wochenschau\"zum Thema \"Kriminalität\", zu dem ein methodisch-didaktisches Lehrerbegleitheft bestellt werden kann. Wochenschau-Verlag, Adolf-Damaschke-Straße 103, 65824 Schwalbach/Ts; Tel.: 06196-84010; Fax.: 06196-86060."
+  },
+  {
+    "title": "Armenpflege und soziale Einrichtungen",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/armenpflege-und-soziale-einrichtungen/",
+    "summary": "Die mittelalterliche Armenpflege war von religiösen Vorstellungen geprägt und wurde fast auschließlich von der Kirche durchgeführt. (1) Man glaubte durch die Hingabe irdischer Güter zur Unterstützung der Armen das eigene Seelenheil zu erlangen. Die kirchlichen Anstalten (Kloster, Stift, Spital) waren auch die dauerhaftesten Einrichtungen der Armenpflege. Häufig wurde auch testamentarisch verfügt, daß eine festge­legte Zahl von Seelenmessen gelesen und das Geld, das von der Bezahlung der Priester übrigblieb, den Armen gegeben werden sollte. Die Verwaltung des zur offenen Armenpflege bestimmten Geldes wurde im Spätmittelalter jedoch in der Regel nicht der Kirche, sondern dem Stadtrat übertragen, der in Geldangelegenheiten größeres Ansehen und Vertrauen genoß als die Kleriker. Dieses Eindringen städtischer Gewalten in kirchliche Domänen läßt sich im 13. Jahrhundert in vielen mittelal­terlichen Städten beobachten. Als Heidelberg in die Geschichte eintrat, war diese Entwicklung größtenteils abgeschlossen."
+  },
+  {
+    "title": "Bürger und Bauern",
+    "path": "/detlef/projekte/heidelberger-schulgeschichten/buerger-und-bauern/",
+    "summary": "Vom 11. bis zum 14. Jahrhundert ist in ganz Mitteleuropa ein enormes Städtewachstum zu verzeichnen. Während um das Jahr Tausend 200 bis 300 Städte in Mitteleuropa geschätzt werden, sind es Ende des 15. Jahrhun­derts 4000, darunter allerdings 2800 Orte unter 1000 Einwohner (4). Im Gebiet des späteren Großherzogtums Baden gab es im 15. Jahrhundert 15 Reichsstädte, neben denen allein noch das 1120 gegründete Freiburg hervorsticht. Viele Städte waren klein und kamen nur zufällig zu ihrem Stadtrecht. Ihre Autonomiebestrebungen scheiterten meist an der man­gelnden Größe und Wehrkraft. Heidelberg war im Jahre der Universitäts­gründung, 1386, mit knapp 4000 Einwohnern eine verhältnismäßig kleine Stadt, deren Zentrum der Hof bildete. Fernhandel war kaum vertreten. In einer Zeit, in der sich der Übergang des Transportwesens vom Aben­teuer (5) zur Verwaltungstätigkeit vollzog, wurde die Schriftlichkeit des Geschäftsverkehrs unumgänglich. In den reichen Handelsstädten (vor allem im Norden Deutschlands) waren plötzlich auch deutsch unterrich­tende Lehrer gefragt. \"Die erste weltliche Schule in Deutschland wird 1266 in Lübeck gegründet. Dort unterrichtet auch der erste von Kirche und Krone unabhängige Lehrer Deutschlands. Er ist vom Rat der Stadt engagiert.\"(6) Um 1300 beschweren sich viele Pädagogen, dass ihr Latein immer weniger gefragt sei, da Schenkungen, Verordnungen und alle möglichen Dokumente zunehmend in deutscher Sprache abgefasst würden. Lehrerklagen waren also von Anfang an in Umbruchszeiten zu hören."
+  },
+  {
+    "title": "Der unheimliche Berg",
+    "path": "/detlef/projekte/heiligenberg/der-unheimliche-berg/",
+    "summary": "Von alters her sind Sagen und schriftliche Berichte von geheimnisvollen Begebenheiten überliefert, die sich auf dem Heiligenberg zugetragen haben sollen. Man erzählte von heidnischen Höhlen und tiefen Gängen, von römischen Altären und Hexentanzplätzen. Auch wusste man von ver­grabenen Schätzen und warnte vor Irrlichtern, die ins Verderben stürzten, wer diese Schätze heben wollte."
+  },
+  {
+    "title": "„Neuenheim ist halb Europa“",
+    "path": "/detlef/projekte/neuenheim/ist-halb-europa/",
+    "summary": "Auszüge aus einem Gespräch mit Magdalena Traber und Ella Haas."
+  },
+  {
+    "title": "1817-1821 - Die Korsaren",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/1817-1821-die-korsaren/",
+    "summary": "Luis Aury, französischer Korsar, kam auf die Insel, unterstützt von 800 Soldaten und einer Flotte von 14 Schiffen. Er brachte Leute aus verschiedenen Nationalitäten, darunter auch Agustin Codazzi (10)."
+  },
+  {
+    "title": "Microsoft Paint",
+    "path": "/julian/techzap/design/microsoft-paint/",
+    "summary": "Problem: Microsoft Paint erstellt nur die Web-Grafikformate .jpg, .gif und .png - Das .ico Format für favicon-Dateien wird nicht unterstützt."
+  },
+  {
+    "title": "Einführung in das Programmieren (alt und unvollendet)",
+    "path": "/julian/techzap/programmierung/einfuehrung-in-das-programmieren/",
+    "summary": "Einführung in die Programmierung - Kapitel 1: Die Grundlagen"
+  },
+  {
+    "title": "Unix/Linux",
+    "path": "/julian/techzap/server/unix-linux/",
+    "summary": "Problem: Es sollen zwei Dateien verglichen werden und dabei alle Zeilen der ersten Datei, die ebenfalls in der zweiten Datei vorkommen, entfernt werden."
+  },
+  {
+    "title": "VMware",
+    "path": "/julian/techzap/technik/vmware/",
+    "summary": "Problem: Der VMware Player nimmt die Kombination Strg+Alt+F1 oder eine andere Strg+Alt+Fn Kombination nicht an"
+  },
+  {
+    "title": "Ein netter Kerl  (Beispiel, Mittelstufe)",
+    "path": "/detlef/deutsch/textinterpretation/ein-netter-kerl/",
+    "summary": "Textinterpretation: „Ein netter Kerl“ von Gabriele Wohmann"
+  },
+  {
+    "title": "Aufgabenbereiche und Zielsetzungen",
+    "path": "/detlef/medien/medienerziehung/aufgabenbereiche-und-zielsetzungen/",
+    "summary": "Die medienerzieherische Arbeit in der Schule umfaßt vor allem drei Aufgabenbereiche:"
+  },
+  {
+    "title": "Geschichte und Politik",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geschichte-und-politik/",
+    "summary": ""
+  },
+  {
+    "title": "Beispiel für ein Projekt",
+    "path": "/detlef/projekte/dritte-gewalt-strafvollzug/beispiel-fuer-ein-projekt/",
+    "summary": "In Zusammenarbeit mit dem Kurfürst-Friedrich-Gymnasium und dem Medienforum Heidelberg möchte die Landesbildstelle ein beispielhaftes Videoprojekt durchführen, in dem fächerübergreifend die Themen \"3. Gewalt/ Strafvollzug\" am Beispiel lokaler Geschichte angesprochen werden. Betroffen sind die Fächer: Deutsch, Geschichte, Gemeinschaftskunde, Religion, Latein. Es handelt sich hier um Themen, die jede Generation selbst neu durchdenken und erarbeiten muss. Bisherige Unterrichtsprojekte haben gezeigt, dass Schüler in diesem Themenbereich gut zu motivieren sind."
+  },
+  {
+    "title": "Auszug aus der Sittenstrafordnung für Dirnen des Heidelberger Kurfürsten Ott-Heinrich des Jahres 1532",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/sittenstrafordnung-fuer-dirnen/",
+    "summary": "\"Wir, Ota-Henricus, Pfalzgraf bey Rheyn und des Reiches durchlauchtiger Churfürst, ordnen hiermit an und bestimmen, dass sich all seyne Unterthanen, gleich wess Standes, geziemlicher Sittlichkeit zu befleyssigen und den Verlockungen fleischlicher Lust zu enthalten haben, wenn sie nicht dieneten zum Segen der Zeugnis. >> Sollen deswegen sich die ledigen Weibspersonen keusch halten bis zur Ehen, und dieda, so solches missachten und nur zu ihrer Freuden sich lassen von Mannsleut beschlafen oder gar solche hierzus verführen, ihnen gar dafür noch Münz oder Wertens abnehmen, sollen strenglicher Straff unterzogen werden sonder Gnaden, so sie seyn ehrlos und ihnen gebühret Schanden und harte Peynen."
+  },
+  {
+    "title": "Das 18. Jahrhundert",
+    "path": "/detlef/projekte/heidelberger-schulgeschichten/das-18te-jahrhundert/",
+    "summary": "Bürger und Bauern, die als Untertanen gehalten werden sollten, konnten - vor allem bei materieller Not - wenig Bildungsbeflissenheit ent­wickeln. Das rächte sich im 18. Jahrhundert, als eine bessere Volks­bildung allmählich auch für die wirtschaftliche Entwicklung wichtiger wurde. Vor allem die oft als vorbildlich zitierten preußischen Schul­gesetze von 1717, 1736 und 1763 blieben ohne die entsprechende bil­dungspolitische Infrastruktur (Schulhäuser, Lehrer, Bildungsinteres­sen...) weitgehend erfolglos. Noch nicht einmal ein Viertel aller Kinder besuchte dort im 18. Jahrhundert regelmäßig die Schule, und die Hälfte davon verließ diese, ohne wirklich lesen und schreiben, geschweige denn rechnen gelernt zu haben (21)."
+  },
+  {
+    "title": "Die Geschichte des Heiligenbergs",
+    "path": "/detlef/projekte/heiligenberg/geschichte/",
+    "summary": "Die 1978 wiederaufgenommenen Restaurierungsarbeiten am Kloster St. Michael hatten es sich zum Ziel gesetzt, dem Besucher ein räumliches Nachempfinden der ehemaligen Klosteranlage zu ermög­lichen. Verantwortlich für das Gelingen dieses Vorhabens waren neben den Geldgebern vor allem P. Marzolff, Bauforscher am Insti­tut für Ur- und Frühgeschichte der Universität Heidelberg, der engagierte Architekt B. Burger und auch B. Heukemes, der immer wieder sein Wissen zur Verfügung stellte. Leider musste man während der Arbeiten entdecken, dass in den vergangenen Jahrzehnten neben beaufsichtigten Grabungen auch Raubgrabungen vorgenommen worden waren, die Beschädigungen und Zerstörungen zur Folge gehabt hatten. Auch der zur nationalso­zialistischen Zeit eingesetzte Aufräumdienst hatte vielfach mehr geschadet denn genutzt. Türen waren dort eingesetzt wor­den, wo keine hingehörten und andere wiederum waren zugemauert worden. So hatte man lange Zeit nicht gewusst, welchem Zweck die einzelnen Räume gedient hatten. Es ist eigentlich nur den Auf­zeichnungen des Architekten Koch die Chance zu verdanken, den ehemaligen Zustand der Ruine wiederherstellen zu können. Dieser hatte seit 1911 immer wieder dort oben gearbeitet. Obwohl jetzt oft vom Boden her aufgebaut werden musste, entspricht alles heu­te Sichtbare dem ursprünglichen Zustand und entspringt keines­wegs den Phantasien der Archäologen und Architekten. Ihrer mühevollen Kleinarbeit ist es zu verdanken, dass der Be­sucher des Heiligenbergs heute die Möglichkeit hat, eine recht ungewöhnliche und einzigartige Klosteranlage betrachten zu kön­nen. Lediglich die einst wohl imposante Höhe der Bauten ist auf­grund fehlenden Materials nicht rekonstruierbar und nur auf dem Merianstich von 1645 nachzuempfinden. Aber nicht nur die mühevolle bauliche Rekonstruktion der Klosterruine ist bemerkenswert, sondern auch eine Reihe historisch bedeutsamer Ergebnisse, die die Grabungen erbracht haben. Das bedeutendste ist, dass nunmehr feststeht, dass der Heiligenberg seit ca. 1000 v. Chr. lange Zeit ununterbrochen besiedelt war. Hinzu kommt, dass es sich keineswegs um eine kleine, unbedeutende, sondern um eine große, zentrale Siedlung gehandelt hat. Daneben ist er wohl schon früh ein Ort mit kultischer Bedeutung gewesen. Das älteste auf dem Heiligenberg gefundene Stück stammt aus der mittleren Jungsteinzeit. Es handelt sich um eine Lanzenspitze. Sie ist freilich kein Beweis für eine dauerhafte Besiedlung des Berges zu jener Zeit und wird eher von Jägern aus dem Neckarvorland stammen, die den Berg für die Holzausbeute und als Weide­land nutzten. Ob eine Mitteilung vom Anfang dieses Jahrhunderts, man habe sogar Scherben der frühen Jungsteinzeit (5. Jahrtausend v. Chr.) gefunden, zutrifft, wird sich bei der von B. Heukemes betriebenen Bearbeitung der Altfunde im Kurpfälzischen Museum überprüfen lassen."
+  },
+  {
+    "title": "Die Eingemeindung Neuenheims 1891",
+    "path": "/detlef/projekte/neuenheim/eingemeindung/",
+    "summary": "Gisela Grenz befragt den Heidelberger Historiker Jochen Goetze:"
+  },
+  {
+    "title": "Aktuell - 1903-heute",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/aktuell-1903-heute/",
+    "summary": "Die Trennung von Panamá aus Kolumbien verursachte mehrere Konflikte. Der Präsident Teddy Rooselt schickte die Schiffe Nashville und Boston, um die Inselbewohner zu motivieren, sich Panamá anzuschließen. Aber seine Soldaten begingen viele Gewalttaten auf der Insel und die Inselbewohner leisteten Widerstand und fragten um Hilfe. Francisco A. Newball, der in den USA Jura studierte, reiste nach Bogotá ab, um die Bestätigung des 52. Gesetztes vom 1912 zu erreichen, unter dem San Andrés und Providencia als „Intendencia“ anerkannt werden, d.h. als Provinz aus Kolumbien."
+  },
+  {
+    "title": "Perl",
+    "path": "/julian/techzap/programmierung/perl/",
+    "summary": "Problem: In Dateien soll mit einem einzeiligen Perl-Befehl eine Zeichenfolge durch eine andere ersetzt werden und das Ergebnis wieder in die jeweilige Datei gespeichert werden."
+  },
+  {
+    "title": "Windows",
+    "path": "/julian/techzap/server/windows/",
+    "summary": ""
+  },
+  {
+    "title": "Einige Beispiele",
+    "path": "/detlef/deutsch/textinterpretation/einige-beispiele/",
+    "summary": ""
+  },
+  {
+    "title": "Erlebnis- und Handlungsorientierung als Prinzipien",
+    "path": "/detlef/medien/medienerziehung/erlebnis-und-handlungsorientierung-als-prinzipien/",
+    "summary": "Medienerziehung soll für Kinder und Jugendliche Erlebnis- und Handlungsmöglichkeiten schaffen. In diesem Sinne sind Erlebnis- und Handlungsorientierung als übergreifende Gestaltungsprinzipien der Medienerziehung anzusehen. Erlebnisorientierung bedeutet, daß durch Medienerziehung auch Sinne und Gefühle angesprochen werden; Handlungsorientierung verweist darauf, daß Medienerziehung auf gegenwärtiges und zukünftiges Handeln gerichtet ist, z.B. in Form von aktiven Eingriffen in überschaubare Problemlösungen, in Entscheidungs-, Beurteilungs- und Gestaltungsprozesse. Insbesondere Video- und Computer (die zunehmend in einem technischen Medium zusammenwachsen), bieten Möglichkeiten, Gestaltungsprozesse nicht nur medial darzustellen, sondern auch aktiv zu unterstützen. Hierbei werden kommunikative Prozesse zwischen Schülern einer Schule genauso zu beachten sein wie solche zwischen Schülern verschiedener Schulen. Überregionale und internationale Schulprojekte werden durch neue Medien erleichtert."
+  },
+  {
+    "title": "Kultur / Religion",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/kultur-religion/",
+    "summary": "Heimat ergibt sich nicht allein aus dem Bezug der Menschen zu der sie umgebenden Landschaft. Auch die Kultur, in deren Zentrum früher meist die Religion gestanden hat, prägt die Menschen einer Region. Der zweite Teil unseres Projektes handelt deshalb davon, wie die Menschen hier kulturell und religiös geprägt wurden. Da wir uns auf wenige Epochen beschränken müssen, haben wir uns auf Zeiten des Umbruchs konzentriert, Zeiten, in denen alte Vertrautheiten in Frage gestellt wurden und neue Verhältnisse sich abzeichneten..."
+  },
+  {
+    "title": "Gymnasium",
+    "path": "/detlef/projekte/dritte-gewalt-strafvollzug/gymnasium/",
+    "summary": "Rechtsgeschichte und Rechtsbewußtsein sind Themen der 11. Klasse des Gymnasiums. Im Bildungsplan für das Gymnasium vom 4. Februar 1994 ist für das Fach Gemeinschaftskunde in der \"Lehrplaneinheit 3\" vorgegeben, \"das Recht und die Rechtsordnung in der Bundesrepublik Deutschland\" (S. 539/40) zu behandeln. (1) Von den historischen Staatstheorien (Hobbes, Locke, Marx ...) über die Aufgaben des Grundgesetzes bis hin zur Problematik der Wiedervereinigung soll den Schülern die Aufgabe staatlicher Gewalt im Rahmen einer Verfassung und das Verständnis des hohen Wertes der Rechtsstaatlichkeit in einer Demokratie vermittelt werden. Dabei handelt es sich nicht nur um eine distanzierte Wissensvermittlung, sondern zugleich um die Vermittlung elementarer Werte für unsere Gesellschaft. Dies verlangt Anschaulichkeit. Wo immer es möglich ist, sollten Schüler sich von daher anschaulich mit der Geschichte des Rechts auseinandersetzen. Für den Lehrer bietet sich hier die Behandlung aktueller Rechtsfragen an, die von der Tagespolitik her umstritten sind (Wiedervereinigung und die Folgen für die Bürger in Ost- und Westdeutschland); es bietet sich der Besuch einer Gerichtsverhandlung und das anschließende Gespräch mit dem betreffenden Richter an; es bietet sich aber auch an, in einem fächerübergreifenden (2) Projekt Geschichte und Gegenwart eines nahegelegenen Gefängnisses aufzuarbeiten. In einem Gefängnis spiegelt sich die Rechtsauffassung einer Gesellschaft krasser als in allen anderen Institutionen, weil hier Sanktionen auf drastische Weise durchgesetzt werden müssen. Die vorbürgerliche Strafauffassung (vgl. noch die Behandlung der Räuberbanden in der napoleonischen Zeitum das Jahr 1800) mit den exemplarischen und harten Bestrafungen einzelner \"Übertäter\" im Namen des durch den Fürsten repräsentierten Staates wurde Mitte des 19.Jahrhunderts in vielen europäischen Ländern zurückgedrängt.Sie wurde ersetzt durch bürgerliche Rechtsauffassungen, die (von der Theorie her) verlangen, daß Gesetze alle Menschen rechtlich gleich behandeln und Normabweichungen nicht nur bestraft, sondern auch überpädagogische Maßnahmen korrigiert werden sollen.. Das drückt sich in vielfältiger Weise in den Strafvollzugsanstalten aus. Aus der strikten indivuellen Behandlung ist bis heute wieder ein eher sozialer Vollzug der Strafe entstanden, der die Wiedereingliederung der Straftäter verbessern soll, aber auch neue Probleme (Subkultur der Gefangenen) aufwirft. In diesem Zusammenhang lassen sich für Schüler, die über die Tagespresse immer wieder auffällige Straffälle verfolgen können, hautnah Fragen der Rechtsgeschichte und der Rechtsnormen nachvollziehen, wie dies über reines Buchwissen niemals möglich ist. Wie sieht ein Richter diese Probleme? Wie sieht sie der Leiter / die Leiterin einer Strafvollzugsanstalt, wie ein Gefängnispfarrer? Auch in der Schule selbst kann der Blickwinkel der Fragestellung variiert werden:"
+  },
+  {
+    "title": "Das älteste Gewerbe im alten Heidelberg",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/das-aelteste-gewerbe/",
+    "summary": "\"Der gemeinen Frauen Haus\", so wurden im Mittelalter die Freudenhäuser genannt. Aus pfälzischen und Heidelberger Quellen erfahren wir zu diesem Thema folgendes:"
+  },
+  {
+    "title": "Das 19. Jahrhundert",
+    "path": "/detlef/projekte/heidelberger-schulgeschichten/das-19te-jahrhundert/",
+    "summary": "Bei aller - auch von den deutschen Dichtern mitgetragenen (32) - päd­agogischen Aufbruchsstimmung darf man nicht vergessen, dass als Erblast des 18. Jahrhunderts der stete Blick \"nach oben\", zum staatlichen Ent­scheidungsträger hin, weiterlebte. Mehr Wissen für das Volk sollte auf keinen Fall zu \"Aufruhr\" führen. Das brachte konsequenterweise den re­ligiös-nationalen Gesinnungsunterricht, wie er schließlich im Kaiser­reich seine Blüten trieb. Der alte religiöse Plapper-Unterricht jedoch war nun allzu äußerlich und konnte nicht mehr genügen; das wurde immer mehr Entscheidungsträgern klar. In seinen Schulerinnerungen aus den 90er Jahren des 18. Jahrhunderts berichtet der preußische Regierungs­beamte Karl Friedrich Klöden, wie selbst in Stadtschulen der pure Stumpfsinn herrschte: \"An jedem Tag war die erste Schulstunde dem Bi­bellesen gewidmet. Es wurde da angefangen, wo man am vorigen Tag stehen geblieben war, bis man mit der Bibel 'fertig' war... Zwar wußten wir, die Bibel sei Gottes Wort; doch hatte das für uns keine rechte Bedeutung. Uns war der Titel, die Vorreden, die Kapitelüberschriften ebensogut Gotteswort, weil sie in der Bibel standen, und hätte es dem Buchbinder gefallen, noch ein anderes Buch mit der Bibel zusammenzu­binden, wir hätten nicht bezweifelt, daß es ebenfalls Gottes Wort sei. Auch das Gesangbuch galt uns als Gottes Wort. Diese völlige Gedanken­losigkeit beim Lesen war es auch, die da machte, daß wir bei solchen Stellen der Bibel, die man Kindern billig vorenthalten sollte, ohne irgendeinen Anstoß wie bei allen anderen vorübereilten; denn wir wußten nicht, was wir gelesen hatten.\"(33)"
+  },
+  {
+    "title": "MOPÄD - Mobile Pädagogen",
+    "path": "/detlef/projekte/heiligenberg/mopaed/",
+    "summary": "MOPÄD ist ein chamäleonartiges \"Gebilde\", das im Jahre 1985 über ein Videofilprojekt zum Heiligenberg bei Heidelberg entstanden ist und sich von Projekt zu Projekt ändert: Mal werden Schüler, Jugendliche und Lehrer in die Videofilmtechnik eingewiesen, um mit ihnen z.B. einen Film über eine Schulpartnerschaft drehen zu können. Mal nimmt die aktive Filmarbeit selbst alle Aufmerksamkeit in Anspruch - z.B. wenn gerade zwei Filme parallel gedreht werden - , mal werden fremde Videoarbeiten, pädagogisches Film- und Tonmaterial oder auch medienpädagogische Streitfragen besprochen. Die Gruppe ist in jeder Hinsicht mobil: Vom Einsatzort bis zur personellen Zusammensetzung. Inhaltliche Vorlieben liegen in der Erforschung und Darstellung lokaler und regionaler Kultur."
+  },
+  {
+    "title": "Interview mit Herrn Krauch",
+    "path": "/detlef/projekte/neuenheim/interview-krauch/",
+    "summary": "Herr Krauch, Sie haben als Kind die Vorkriegs- und Kriegszeit und als Jugendlicher die Nachkriegszeit miterlebt. War das für Sie eine schlimme Zeit?"
+  },
+  {
+    "title": "Jahr 1629",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/jahr-1629/",
+    "summary": "Im Auftrag der Puritanischen Gesellschaft verließen im Monat April zwei Schiffe Liverpool, um Siedler aus England nach Nord-Virginia zu bringen: Die Maiflower und die Seaflower."
+  },
+  {
+    "title": "Homo Faber",
+    "path": "/detlef/deutsch/textinterpretation/homo-faber/",
+    "summary": ""
+  },
+  {
+    "title": "Gestaltung von audiovisuellen Medien",
+    "path": "/detlef/medien/medienerziehung/gestaltung-von-audiovisuellen-medien/",
+    "summary": "Medienpädagogisches Handeln berücksichtigt neben der Medienanalyse auch die eigene schöpferische Gestaltung von Medien im Rahmen von fächerverbindendem Unterricht und projektorientiertem Lernen. Der Brückenschlag zu den Fächern wie Musik oder Bildende Kunst hilft, ästhetische Fragen mit Kreativität und Phantasie zu behandeln."
+  },
+  {
+    "title": "Hauptschule",
+    "path": "/detlef/projekte/dritte-gewalt-strafvollzug/hauptschule/",
+    "summary": "Aber nicht nur im Gymnasium, auch in der Haupt- oder Realschule läßt sich das Thema \"Dritte Gewalt / Strafvollzug\" begründet und anschaulich behandeln. (3) Weniger theoretisch als im Gymnasium muß der Stoff für die 8. Klasse der Hauptschule im Fach Gemeinschaftskunde zentral angesiedelt werden. Oberthema der mit acht Stunden angesetzten Lehrplaneinheit 2 heißt hier: \" Jugend im Rechtsstaat\" (S.218/19) Altersentsprechend interessieren sich die Schüler stark mit Normabweichungen im Drogenbereich, der ja auch häufig zum Einstieg in eine \"kriminelle Karriere\" führt. Thema Nr. 1 im Rahmen der lehrplanmäßig vorgeschlagenen \"fächerverbindenden Themen\" lautet nun \"Suchtprävention\" (S.197), Thema Nr. 4 lautet \"Jugend und Recht\" (S.200). Aber nicht nur zu den fächerübergreifenden Themen ergeben sich Bezüge, die für die Behandlung der Gesamtthematik mehr Zeit und Verständnis schaffen, es bieten sich auch Lehrplanbezüge zu den Fächern Evangelische Religionslehre (LPE 6: Strafen- Vergeben - Neu anfangen; S.204), Katholische Religionslehre (LPE 3: Neu anfangen - Gewissen, Schuld und Vergebung; S.208) und Ethik (LPE 1: Leben in Gemeinschaften; S.239) an. Ebenfalls sinnvoll wäre die Einbindung des Themas in das Fach Deutsch, wo der \" Arbeitsbereich 1\" (S. 210-212) viel Spielraum läßt, um Simulationsspiele, Diskussion, Argumentation und Begründung an interessanten Themen zu üben."
+  },
+  {
+    "title": "Dr. Jochen Goetze",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/dr-jochen-goetze/",
+    "summary": "Geb. 1937. Studium der Geschichte, Kunstgeschichte und Rechtswissenschaft in Hamburg und Heidelberg. 1964 Promotion. Dozent am Historischen Seminar der Universität Heidelberg. Veröffentlichungen zur Geschichte der Hanse und Skandinaviens und zu den Historischen Hilfswissenschaften. Monographien zum Heidelberger Schloß, zu den Burgen im Neckartal und in der linksrheinischen Pfalz. Beschäftigung mit der Geschichte der Stadt Heidelberg. Mitarbeit an mehreren stadtgeschichtlichen Schulfilmprojekten und deren Dokumentation durch die Gruppe \"MOPÄD\". In Vorbereitung: Eine Geschichte der Stadt Heidelberg bis zum Ende der Kurpfalz."
+  },
+  {
+    "title": "Das 20. Jahrhundert",
+    "path": "/detlef/projekte/heidelberger-schulgeschichten/das-20te-jahrhundert/",
+    "summary": "In den preußischen Schulen soll jetzt als neues Unterrichtsfach Staatsbürgerkunde eingeführt werden. Es ist wohl selbstverständlich, daß der Unterricht von Schutzleuten erteilt wird."
+  },
+  {
+    "title": "Unser Projekt",
+    "path": "/detlef/projekte/heiligenberg/projekt/",
+    "summary": ""
+  },
+  {
+    "title": "MOPÄD - Mobile Pädagogen",
+    "path": "/detlef/projekte/neuenheim/mopaed/",
+    "summary": "MOPÄD ist ein chamäleonartiges \"Gebilde\", das im Jahre 1985 über ein Videofilprojekt zum Heiligenberg bei Heidelberg entstanden ist und sich von Projekt zu Projekt ändert: Mal werden Schüler, Jugendliche und Lehrer in die Videofilmtechnik eingewiesen, um mit ihnen z.B. einen Film über eine Schulpartnerschaft drehen zu können. Mal nimmt die aktive Filmarbeit selbst alle Aufmerksamkeit in Anspruch - z.B. wenn gerade zwei Filme parallel gedreht werden - , mal werden fremde Videoarbeiten, pädagogisches Film- und Tonmaterial oder auch medienpädagogische Streitfragen besprochen. Die Gruppe ist in jeder Hinsicht mobil: Vom Einsatzort bis zur personellen Zusammensetzung. Inhaltliche Vorlieben liegen in der Erforschung und Darstellung lokaler und regionaler Kultur."
+  },
+  {
+    "title": "Jahr 1641",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/jahr-1641/",
+    "summary": "Die Regierung von Panama, welche Gefangene auf die Festung „La Libertad“ geschickt hatte, wurde darüber informiert, dass es auf der Insel englisch sprechende Personen geben sollte. Panama organisierte daraufhin eine Expedition, um die Insel zurückzugewinnen. Der General Francisco Díaz Pimiento wurde von der Regierung ausgewählt, um die Insel mit Zustimmung von Panama und Cartagena zurückzuerobern, nachdem mehrere entsprechende Versuche dieser beiden Regierungen gescheitert waren. Díaz Pimiento erreichte die Insel und ankerte mit sieben Schiffen und 1700 Mann in der „South-West-Bay“ (Bahia Sur-Oeste). Er ging dann einen Fußweg entlang und nachdem er die amerikanische Festung im „Black-Bay“ unterworfen hatte, griff er die Verteidiger im Rücken an und nahm den Verwalter der Insel gefangen."
+  },
+  {
+    "title": "Wie ist der Mensch (Michel de Montaigne)",
+    "path": "/detlef/deutsch/textinterpretation/wie-ist-der-mensch-michel-de-montaigne/",
+    "summary": ""
+  },
+  {
+    "title": "Leseerziehung und Hörerziehung",
+    "path": "/detlef/medien/medienerziehung/leseerziehung-und-hoererziehung/",
+    "summary": "Der Deutschunterricht ist der zentrale Bereich, in dem Schülerinnen und Schülern das Buch nahegebracht wird und in dem Freude am Lesen vermittelt wird. Erste Erfahrungen mit der Literatur werden in den Lesebüchern der Klassen 2 - 4 vermittelt; darüber hinaus werden im Arbeitsbereich \"Lesen und Verstehen\" (beim Umgang mit der Klassen- und Schulbibliothek) auch Kenntnisse für die Benutzung öffentlicher Bibliotheken vermittelt. Anregungen aus dem Heimat- und Sachunterricht können hier einfließen - z.B. im Arbeitsbereich \"Medien und Konsum\". Außerschulische Erfahrungsfelder lassen sich über engagierte Eltern, oder Institutionen und Experten, die selbst pädagogisch interessiert sind (Verkehrspolizei, Förster, Jugendämter, Sportvereine etc.) in Unterrichtsprojekte einbeziehen. Das Printmedium Zeitung kann ebenfalls schon frühzeitig für Unterrichtszwecke herangezogen werden."
+  },
+  {
+    "title": "Medienforum Heidelberg e.V.",
+    "path": "/detlef/projekte/dritte-gewalt-strafvollzug/medienforum-heidelberg-ev/",
+    "summary": "Die Zahl der TV-Kanäle steigt und steigt, die Programme verflachen, der Blick auf die Mattscheibe wird oberflächlicher, man zappt sich so durch. Schon seit längerer Zeit wird von Pädagogen und Psychologen über die negativen Folgewirkungen exzessiver Nutzung audiovisueller Medien geklagt. Wir klagen nicht, wir machen selber Programm - und laden alle, die dem Medienkommerz entkommen wollen, ein, mit unserer Hilfe medienaktiv zu werden. Produzieren statt konsumieren, ist unsere Devise, - sich einmischen, Leute kennen lernen, Aussagen formulieren, audiovisuelle Experimente wagen und dabei feststellen, nach welchem Regeln die Medien funktionieren."
+  },
+  {
+    "title": "Freizeit im Mittelalter",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/freizeit/",
+    "summary": "Ein Arbeitstag im Mittelalter reichte von Sonnenauf- bis Sonnenuntergang und war daher im Winter kürzer und im Sommer länger. Jeder Sonnenstrahl mußte genutzt werden. Viel Zeit für Müßiggang gab es nicht. Tagaus, tag­ein, die gleiche Arbeit und Mühsal. Fernsehen oder Freizeitgestaltung gab es noch nicht. Das Angebot an Abwechslung war gering. Jede Form, Ab­wechslung in den Alltag zu bringen und Zerstreuung zu finden, wurde dankbar angenommen. Trotzdem muß man sich das Mittelalter nicht gar so arbeitsreich vorstellen, wie es landläufig üblich ist. Verschiedene Untersuchungen haben ergeben, daß ca. 1/3 des Kalenderjahres Fest- und Feiertage gewesen sind, Sonntage eingeschlossen."
+  },
+  {
+    "title": "Die Anfänge",
+    "path": "/detlef/projekte/heidelberger-schulgeschichten/anfaenge/",
+    "summary": "Die Anfänge: Kirchentradition und Obrigkeit."
+  },
+  {
+    "title": "Neuenheim wird Stadtteil von Heidelberg",
+    "path": "/detlef/projekte/neuenheim/otto-jaeger-ludwig-merz/",
+    "summary": "Ja, das war je nach Besitz der Leute. Die Kinder von den Bauersleuten, die haben viel auf dem Feld schaffen müssen, die Mädle und die Bube. Wenn ich das heute betrachte, aus dieser Zeit, muss ich sagen: Meine Schul­kameraden, Volksschule, die haben schaffen müssen! Die sind morgens mit in den Stall, da ist der Stall ausgemistet worden. Und dann sind sie erst in die Schule gegangen. Das war für die Kinder eine Plage! Und wenn sie heimge­kommen sind, haben sie ein Stück Brot gekriegt - und dann ist es raus aufs Feld gegangen. Die haben schaffen müssen - grad in dem Alter ab 11 Jahren, da waren die schwer strapaziert. Und dann sind sie natürlich auch manchmal nicht mit dem Schulunterricht mitge­kommen. Da sind welche 'hocke geblieben' und mussten die Klasse nochmal machen."
+  },
+  {
+    "title": "Jahr 1666 - Piraterie",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/jahr-1666-piraterie/",
+    "summary": "Als die Puritanische Gesellschaft erfuhr, dass ihre Männer umgekommen waren, organisierte sie eine neue Expedition um die Insel zurückzuerobern. Was Spanien eigentlich wollte, war das Gold des neuen Kontinents, um Schlagzeilen in der Presse zu haben und die Aufmerksamkeit anderer Länder zu gewinnen. Viele Gierige wollten nach Amerika, um nach \"El Dorado\" zu suchen. Viele Abenteurer segelten über das Meer, darunter die Expeditionen von Mansfield (1. Kommandant) und Morgan (2. Kommandant), die im Mai ankamen."
+  },
+  {
+    "title": "Medienerziehung als gesamtgesellschaftliche Aufgabe",
+    "path": "/detlef/medien/medienerziehung/medienerziehung-als-gesamtgesellschaftliche-aufgabe/",
+    "summary": "Medienerziehung ist nicht nur eine schulische Aufgabe. Sie muß gleichermaßen vom Elternhaus, vom Kindergarten, der Sozial- und Kulturarbeit, sowie von den Produzenten und Medieninstitutionen geleistet werden. Medienerziehung kann darüber hinaus nur dann erfolgreich sein, wenn Gesellschaft und Politik Rahmenbedingungen schaffen, die zu einer kinderfreundlichen und jugendgerechten Gestaltung der Lebenswelt und der Medienlandschaft führen. Medienerziehung erfordert die Verantwortung aller am Erziehungsgeschehen Beteiligten. Im Hinblick auf deren unterschiedliche Aufgaben sollten heute folgende Handlungsschwerpunkte herausgestellt werden:"
+  },
+  {
+    "title": "Realschule",
+    "path": "/detlef/projekte/dritte-gewalt-strafvollzug/realschule/",
+    "summary": "Wie in der Hauptschule, so muß unser Thema auch in der Realschule vom Lehrplan her in der 8. Klasse verankert werden. Der Anschluß wäre hier in der Lehrplaneinheit 1 des Faches Gemeinschaftskunde gegeben: \"Der einzelne im Rechtsstaat\" (S.229) Im Vergleich zu den Lehrplanvorgabenden anderer Schularten ist hier der Bezug zum Thema Strafvollzug sehr explizit formuliert: \"Formen und Ursachen der Straffälligkeit von Jugendlichen\", \"Sinn der Strafe\", \" Verschiedene Modelle des Strafvollzugs\", \"Strafe und Resozialisierung\", all dies lädt geradezu ein, eine Justizvollzugsanstalt einmal konkreter unter die Lupe zu nehmen und aus der Sicht verschiedener Berufe im Strafvollzug zu untersuchen"
+  },
+  {
+    "title": "Hexenglauben und Hexenprozesse",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/hexenglauben-und-hexenprozesse/",
+    "summary": "Der Hexenturm gegenüber der Unibibliothek"
+  },
+  {
+    "title": "Die Lehrerschaft des Heidelberger Kurfürst-Friedrich-Gymnasiums in der Zeit des Nationalsozialismus",
+    "path": "/detlef/projekte/heidelberger-schulgeschichten/lehrerschaft-kfg-3tes-reich/",
+    "summary": "\"Schluß mit dem verkalkten Paukersystem. Wir revolutionieren die Schule.\" Mit dieser Schlagzeile erschien das badische Kampfblatt der NSDAP (\"Der Führer\") am 23. Juni 1934, kurz vor dem sog. Röhm-Putsch. Die radikalen Nazis in Baden gaben sich nicht damit zufrieden, dass sofort nach der Machtübertragung im Jahre 1933 reichsweit ein breiter Zustrom von Lehrern in die NSDAP eingesetzt hatte. Zwar waren bald 1/4 aller Pädagogen Parteigenossen (ein doppelt so hoher Anteil wie bei den übrigen Beamten!), doch fiel der Opportunismus der Lehrer so sehr ins Auge, dass selbst die Parteiführer vor deren \"Konjunkturrittertum\" warnten und misstrauisch blieben. Auch wenn nach der Röhm-Affäre die revolutionären Töne gegen das gesamte Schulsystem etwas zurückgenommen wurden, so blieb doch als Ziel die totalitäre Ausrichtung des Schul­wesens, was die Institutionen und was das Personal anging, bestehen. Dass dies aber weder in dem einen noch in dem anderen Aspekt vollständig erreicht wurde, zeigt auch das Beispiel des Heidelberger Gymnasiums."
+  },
+  {
+    "title": "Projekt",
+    "path": "/detlef/projekte/neuenheim/projekt/",
+    "summary": ""
+  },
+  {
+    "title": "Jahr 1666-1670",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/jahr-1666-1670/",
+    "summary": "Herrschaft von José Sánchez Jiménez, Gouverneur von Panamá. Wahrscheinlich ging er nach Providencia, war aber nicht anwesend, als Morgan angriff. Es war nicht üblich, dass die Regierungen von Panamá ihre Versprechen an Militär oder Gouverneure einhielten, mit der Konsequenz, dass diese die Inseln wieder verließen, weil keine Kommunikation entstand. Das war der Unterschied zu den Engländern: diese kamen mit der Stempelmarke der Familie und waren dezenter als die Amerikaner, von denen viele von schlechtem Benehmen waren."
+  },
+  {
+    "title": "Medienerziehung im Bereich von Computerspielen und interaktiven Medien",
+    "path": "/detlef/medien/medienerziehung/medienerziehung-im-bereich-von-computerspielen-und-interaktiven-medien/",
+    "summary": "Seit einigen Jahren kommen Computerspiele auf den Markt, die einen filmischen orspann oder eingebaute filmische Sequenzen enthalten. Mit der Einführung des \"CD-Rom-Laufwerks\" hat sich eine völlig neue Situation bei den Spielen ergeben. Konnte bisher ein Spieler lediglich ein im Rechner erzeugtes Bild beeinflussen oder zwischen dem Ablauf festgelegter Filmsequenzen wählen, so kann er jetzt mittels Tastatur, Maus oder Joystick selber in einer variablen Handlung agieren. (\"CD-I-Technik\") Filmähnliche Computerspiele erhöhen den Anreiz für Kinder und Jugendliche, ihre Zeit vor dem Bildschirm zu verbringen."
+  },
+  {
+    "title": "Juden im mittelalterlichen Heidelberg",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/juden/",
+    "summary": "Die Geschichte der jüdischen Bevölkerung im mittelalterlichen Heidelberg ist äußerst wechselhaft: Je nach Laune von Pfalzgraf und Bevölkerung werden die Juden bald vertrieben, bald wieder wohlwollend aufgenommen, bald werden sie den Bürgern gleichgestellt, bald wird ihnen jegliches ordentliche Gewerbe verboten."
+  },
+  {
+    "title": "Schülerunruhen am Kurfürst-Friedrich-Gymnasium im Jahre 1968",
+    "path": "/detlef/projekte/heidelberger-schulgeschichten/schuelerunruhen-am-kfg/",
+    "summary": "\"Einen 'nächtlichen' Sturmangriff erlebte das Kurfürst-Friedrich-Gym­nasium am späten Donnerstagabend. Die schwere Glastür im Innenhof konnte dem Protest von rund 150 Schülern und Studenten gegen ein schwebendes Ausschlussverfahren, das über drei ehemalige Mitglieder der Schülermitverwaltung verhängt worden ist, keinen Einhalt gebieten. Die Demonstranten wollten mit Eltern und Lehrern diskutieren, die an diesem Abend zu einer regulären Elternbeiratssitzung zusammengekommen waren. Die Glastür zerplatzte in über tausend Scherben, knapp die Hälfte der Demonstranten drang in das Gebäude ein und versammelte sich - ausgestattet mit Megaphon - vor dem Tagungsraum des Elternbeirats. An eine Diskussion war jedoch nicht zu denken: Empört, entsetzt und erregt über das Verhalten der Schüler versuchten die Eltern, den Kordon der Demonstranten zu durchbrechen. Dabei kam es gelegentlich zu Handgemengen und Handgreiflichkeiten. Mehrmals forderte Oberstudiendi­rektor Dr. Weis die Schüler und Studenten auf, das Gebäude zu verlas­sen, doch erst die eiligst herbeigerufene Polizei konnte die Schule schließlich von den letzten Demonstranten räumen.\" So fasste das Heidelberger Tagblatt vom 23. November 1968 den Höhepunkt der Auseinandersetzungen zwischen Schülern, Eltern und Lehrern am KFG in fettgedruckten Lettern zusammen."
+  },
+  {
+    "title": "Überblick",
+    "path": "/detlef/projekte/neuenheim/ueberblick/",
+    "summary": "Der am Neckar gelegene Stadt­teil Neuenheim hat eine bei Wei­tem längere Geschichte als Heidel­berg. Schon in der Römerzeit gab es hier - von ca. 50 bis 250 Jahre nach Christi Geburt - ein römisches Kastell (castrum novum) und eine Siedlung, die an einem Knoten­punkt wichtiger Verkehrsführun­gen (Handelswege, Militärstraßen) lagen. Als eigenständige dörfliche Ansiedlung wurde Neuenheim erstmals 765 im \"Lorscher Codex\", also lange vor der Gründung Hei­delbergs im Ausgang des 12. Jahr­hundert, erwähnt. Erst Ende des 19. Jahrhunderts, 1891, wurde das damals noch ärmliche Dorf Neu­enheim eingemeindet, was eine rapide Bautätigkeit von Seiten der Heidelberger Universität und rei­cher Bürger zur Folge hatte. Die Geschichte Neuenheims ist - im Gegensatz zu derjenigen vieler anderer Stadtteile - noch nicht sehr ausführlich dargestellt."
+  },
+  {
+    "title": "Jahr 1670",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/jahr-1670/",
+    "summary": "Der Kapitän Henry Morgan befand sich auf dem Weg nach Panamá, stoppte aber auf Providencia mit einer Flotte von 2000 Piraten, 400 Banditen und 37 oder 38 Schiffen. In der Bucht von Santa Catalina stellte er alle Schiffe auf. Am 24. Dezember dieses Jahres besiegte er die Spanier und übernahm die Macht auf der Insel. Morgan (5) blieb in der „Cueva de la Libertad“ (Höhle oder Festung der Freiheit) und im Schloss von Santa Teresa (später Luis Aury wohnte). Er zerstörte die puritanischen Festungen außer der Kirche und dem Haus des Gouverneurs (José Luis Ramírez de Leyva). Morgan besiegte den Gouverneur, nahm ihn gefangen mit seinen Männern und schickte ihnen nach Cartagena."
+  },
+  {
+    "title": "Medienerziehung im Erziehungs- und Bildungszusammenhang",
+    "path": "/detlef/medien/medienerziehung/medienerziehung-im-erziehungs-und-bildungszusammenhang/",
+    "summary": "Medienerziehung als schulische Aufgabe ist im Zusammenhang mit den allgemeinen und verbindlichen Erziehungs- und Bildungsvorstellungen zu sehen. Das Grundgesetz der Bundesrepublik Deutschland und die Länderverfassungen stellen das Recht auf freie Entfaltung der Persönlichkeit in sozialer Verantwortung als Leitidee für den Erziehungs- und Bildungsbereich heraus. Ein sachgerechtes, selbstbestimmtes und kreatives Handeln in sozialer Verantwortung muß infolgedessen die Leitvorstellung für erziehungs- und bildungspolitische Anstrengungen sein, an der sich auch die Medienerziehung orientieren und zugleich messen lassen muß."
+  },
+  {
+    "title": "Literaturverzeichnis",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/literaturverzeichnis/",
+    "summary": "G. Heinemann, Geschichte unserer Stadt, S. 14"
+  },
+  {
+    "title": "Und plötzlich war die Klasse \"judenfrei\"...",
+    "path": "/detlef/projekte/neuenheim/judenfrei/",
+    "summary": "Bald 55 Jahre ist es her, dass ihn eine Handvoll seiner Neuenheimer Freunde zum Bahnhof brach­ten, darunter - makaber genug -ein paar sogar in der Uniform der Hitlerjugend, erinnert sich Hans Franke. Für den damals l4jähri-gen Lehrerssohn aus der Uferstra­ße, der mit seiner Mutter, einer bekannten Klavierlehrerin, im März 1935 in den Zug kletterte, sollte es ein Abschied für lange Zeit sein. Denn die zuvor hochan­gesehenen Frankes fühlten sich hier immer weniger gelitten, die früh verwitwete Mutter, weil sie Jüdin war, die Söhne Hans und Kurt, weil sie nach den neuen Ras­segesetzen plötzlich als \"Halbju­den\" galten. Frühzeitig kehrten sie daher der alten Heimat den Rücken - doch sie haben sie nie ver­gessen. \"Die Zeit heilt Wunden\", meinte der heute 69jährige Heim­kehrer Hans Franke jetzt bei ei­nem neuerlichen Besuch am Neckar. Erstmals führte er dabei seinen eigens aus den USA ange­reisten Sohn Rafi und den zehn­jährigen Enkel zu den Spuren sei­ner Kindheit. Etwas ungläubig betrachtete da der Enkel den patenten Großvater, als er am Schlossaltan die neu­este Version zu dem Fußabdruck zum Besten gab: Er stammte na­türlich von ihm selbst, seinerzeit auf der Flucht vor einem Böse­wicht. Doch voll Bewunderung sah der Junge auf, als er beim Blick von der Heuss-Brücke die Ge­schichte vom kleinen Hans aus dem Jahre 1929 vernahm, der beim großen Eisgang auf dem Neckar zum Entsetzen zahlreicher Zu­schauer von Scholle zu Scholle springend den Fluss unter der Brücke hindurch überquerte und sich dafür eine gehörige Tracht Prügel einhandelte. Begleitet von seinem in Rohr­bach lebenden alten Schulfreund Erich Ulsenheimer, einem der letz­ten noch lebenden Kameraden jener Jahre, macht sich Hans Fran­ke nun schon seit 1961 alle paar Jahre wieder auf, um bei Streifzü­gen durch die Stadt sein altes Hei­delberg wieder zu entdecken. Auch sein älterer Bruder Kurt, der sei­nerzeit früh nach Israel ging und das Leben in einem Kibbuz wähl­te, während er selbst nach entbeh­rungsreichen Jahren in die Leitung eines Kraftwerks bei Tel Aviv auf­rückte, war schon einige Male hier. doch die Mutter hat es nicht mehr geschafft. Die Zeiten waren da­mals noch nicht danach... So wollte Hans Franke auch seinen alten Klassenlehrer besu­chen, der ihm im letzten Schuljahr lauter \"Bollen\" ins Zeugnis schrieb, um dann im Lehrerzimmer zu verkünden: \"Jetzt ist die Klasse judenfrei!\" Er sei schon lang ge­storben, rief eine Frau zum Fen­ster herunter, als der Besucher am Hause klingelte. Vielleicht wäre die Begegnung für den alten Herrn etwas peinlich geworden, doch der Schüler Hans wollte ihm \"überhaupt nichts nachtragen\". Die Zeit scheint auch solche Wunden zu heilen, denn im Ge­spräch rücken immer wieder die schönen Eindrücke der Kinder­jahre nach vorne: die ausgedehn­ten Spiele an der \"Wasserschachtel\" am Neckarufer, das klamm­heimliche Sammeln von Esskastanien (damals gebietsweise verbo­ten), gewagte Rodelpartien mit selbstgebastelten \"Bauchrutschern\" vom Philosophenweg über die Bergstraße hinweg, das Schwimmen beim \"Nikar\" und die Abstecher mit Freunden in die Altstadt, \"als die Hauptstraße noch so breit war\". Zumindest stellte sie sich aus der Perspektive des klei­nen Hans damals halt breiter dar als heute. Doch auch sonst, so sagt er, hat sich die Stadt sehr verändert. Und sein Freund Erich Ulsenheimer staunt immer wieder, wie viel der Heimkehrer noch von früher weiß. Als sich die Freunde vor bald 55 Jahren im Hauptbahnhof verabschiedeten, gab es bei bei­den einen \"Riss\". Sie spürten ir­gendwie, dass es für lange sein würde; verstehen konnten sie das alles nicht- bis heute. Dem Freund, der in Heidelberg geblieben ist, kommt der Flüchtling von damals inzwischen wie ein \"Wanderer zwischen den Welten vor\". Auf steiler Klippe am Meer hat sich Hans Franke zusammen mit sei­ner aus Wien stammenden Frau in Israel ein Haus gebaut, doch es zieht ihn - wenn nicht gerade nach Heidelberg - auch immer wieder nach Kalifornien, wo er in der Autowerkstatt seines Sohnes ein reiches Betätigungsfeld hat. Hei­delberg-Erinnerungen hängen auch dort an vielen Wänden."
+  },
+  {
+    "title": "Jahr 1670-1767",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/jahr-1670-1767/",
+    "summary": "Die Insel war von den Spaniern selbst vollkommen verlassen, da ihr einziges Interesse war dieses Territorium als Teil der Entdeckung Amerikas zu behalten. Die Spanische Krone gab die Insel aber an Alonso de Ojeda y Nicuesa, um sie zu verwalten, was Luis Colón störte, den Sohn vom Fernando und Enkel vom Cristóbal. Er verklagte die Spanische Krone und der Prozess dauerte der 25 Jahre. Mit den geeigneten Dokumenten in der Hand gewann er die Klage und bekam die Insel zurück, allerdings hatte er keine Mittel, um eine Entwicklung auf der Insel zu finanzieren. Am Ende blieb sie als Teil der Entdeckung und der Spanischen Krone."
+  },
+  {
+    "title": "Medienkompetenz - Vorbemerkung",
+    "path": "/detlef/medien/medienerziehung/medienkompetenz-vorbemerkung/",
+    "summary": "Bevor Menschen mit Medien kommunikativ umgehen und entsprechend ihres jeweiligen Erfahrungbereichs Kompetenz entwickeln, bauen sie in der Familie und / oder mit nahestehenden Bezugspersonen das Konzept einer umfassenden kommunikativen Kompetenz auf, die sozial und kulturell unterschiedlich ausgestaltet wird. Mutter, Vater, Geschwister und Freunde spielen hier bereits eine wichtige Rolle. Medienkompetenz kann immer nur in diese \"kommunikative Kompetenz\" eingebunden werden. Sie erweitert mit technischer Hilfe diese Kompetenz, stellt aber als individuelle Fähigkeit zugleich nur eine Teilmenge der kommunikativen Kompetenz dar, für die als Leitbild der mündige Bürger in einer freiheitlichen Gesellschaft angenommen werden kann. (Grundgesetz, Landesverfassung)"
+  },
+  {
+    "title": "MOPÄD - Mobile Pädagogen",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/mopaed/",
+    "summary": "MOPÄD ist ein chamäleonartiges \"Gebilde\", das im Jahre 1985 über ein Videofilprojekt zum Heiligenberg bei Heidelberg entstanden ist und sich von Projekt zu Projekt ändert: Mal werden Schüler, Jugendliche und Lehrer in die Videofilmtechnik eingewiesen, um mit ihnen z.B. einen Film über eine Schulpartnerschaft drehen zu können. Mal nimmt die aktive Filmarbeit selbst alle Aufmerksamkeit in Anspruch - z.B. wenn gerade zwei Filme parallel gedreht werden - , mal werden fremde Videoarbeiten, pädagogisches Film- und Tonmaterial oder auch medienpädagogische Streitfragen besprochen. Die Gruppe ist in jeder Hinsicht mobil: Vom Einsatzort bis zur personellen Zusammensetzung. Inhaltliche Vorlieben liegen in der Erforschung und Darstellung lokaler und regionaler Kultur."
+  },
+  {
+    "title": "Jahr 1767",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/jahr-1767/",
+    "summary": "Spanien und England unterschrieben einen Vertrag, um ihre Differenzen über die Insel zu beseitigen. Sie schickten eine Kommission unter Befehl des aus Schottland stammendem Francis Archibold (7). Er untersuchte die Insel, machte eine Volkszählung und kehrte nach England zurück, um den König über die Schönheit der Insel zu informieren. Mit Empfehlung von England gab der spanische Monarch Archibold eine Konzession um auf Providencia wohnen zu dürfen und so, im Jahr 1767, installierte dieser sich auf der Insel. Die Konzession wurde von Spanien und England im 1780 bestätigt."
+  },
+  {
+    "title": "Schülerzeitschriften",
+    "path": "/detlef/medien/medienerziehung/schuelerzeitschriften/",
+    "summary": "Junge Redakteure leisten an Schulen aller Schularten Erstaunliches bei der Herausgabe eigener Druckerzeugnisse. Ca. 600 bis 800 Schülerzeitschriften erscheinen zur Zeit in Baden-Württemberg, teilsweise sogar mit mehreren Ausgaben pro Schuljahr."
+  },
+  {
+    "title": "Praktische Heimatkunde",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/praktische-heimatkunde/",
+    "summary": "Im Frühjahr 1986 haben wir, die Lehrer der Gruppe MOPÄD, den im Jahr zuvor fertiggestellten Schüler-Videofilm (\"Zeitensprung\") über die Geschichte des Heiligenbergs in mehreren Heidelberger Schulen vorgeführt. Eine achte Klasse im Bunsen-Gymnasium wollte daraufhin ebenfalls einen Film zu einem lokalgeschichtlichen Thema drehen. Vom Lehrplan her bot sich das Thema Mittelalter an. Die meisten Schüler setzten als Maßstab für ihre Filmpläne sofort eigene Film- und Fernseherlebnisse an und malten sich gruselige Henkerszenen über das ach so finstere Mittelalter aus. Und perfekt wie im Kino sollte alles werden. Wir mußten erst einmal gegensteuern, um die Erwartungen dann nicht zu enttäuschen."
+  },
+  {
+    "title": "Jahr 1790-1803",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/jahr-1790-1803/",
+    "summary": "Tomas O´Neil (Kapitän oder Oberleutnant?) geboren in Irland, aber auf den Kanarischen Inseln bei einer Tante groß gezogen, wurde von den Spaniern beauftragt, als Dolmetscher und Vermittler zwischen den zwei Regierungen zu arbeiten und das Territorium in Amerika von Spaniern zu befreien. Die Engländer mussten in ihre Heimat zurück. Er kam 1790 nach Cartagena und ging mehrmals nach Providencia, um die Insel zu befreien. Am Ende wurde er Gouverneur des Archipels ernannt. Zu dieser Zeit war Providencia Hauptstadt. O´Neil versuchte mit allen Mitteln Frieden zwischen den Spaniern und Engländern auf der Insel zu schließen."
+  },
+  {
+    "title": "Spielfilme",
+    "path": "/detlef/medien/medienerziehung/spielfilme/",
+    "summary": "Eine Grundannahme der medienpädagogischen Arbeit ist, daß man durch den Einsatz des Mediums Spielfilm, dem Kinder und Jugendliche großes Interesse entgegenbringen, gute sachliche Voraussetzungen für die Medienerziehung schafft. Spielfilme, die sich für eine solche Arbeit eignen, gibt es in großer Zahl im Fundus der Landes-, Kreis- und Stadtbildstellen."
+  },
+  {
+    "title": "Stadtgründung - Stadtentwicklung",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/stadtgruendung-stadtentwicklung/",
+    "summary": ""
+  },
+  {
+    "title": "Jahr 1822 - Die Republik",
+    "path": "/detlef/projekte/old-providence-die-insel-providencia/jahr-1822-die-republik/",
+    "summary": "Der General Bolívar beauftragte Perú, um die Inselbewohner zu motivieren, sich an die Gran República anzuschließen. Perú kam am 22. Juni 1822 auf Providencia (11) . Er bekam die Nachricht, dass Aury schon tot war."
+  },
+  {
+    "title": "Veränderung der Bildungs- und Erziehungssituation",
+    "path": "/detlef/medien/medienerziehung/veraenderung-der-bildungs-und-erziehungssituation/",
+    "summary": "Das aktuelle Medienangebot und die absehbare Entwicklung der elektronischen Medien bewirken eine erhebliche Veränderung der Bildungs- und Erziehungssituation in Familie, Schule und Jugendarbeit. Medienbotschaften bestimmen künftig stärker als heute mit, welche Themen Menschen für wichtig halten, für welche Bewertungen und Urteile sie sich entscheiden, welchen gesellschaftlichen und politischen Gestaltungsvorstellungen sie zugänglich sind. Ã–ffentliches Leben und politisches Verhalten sind nur verständlich, wenn man den Einfluß von Presse und Fernsehen auf die Meinungsbildung der Menschen berücksichtigt. Dabei spielt der Erlebnisgehalt der Medienereignisse eine ebenso große Rolle wie der Informationswert der Medieninhalte. Unter den Freizeitaktivitäten haben Mediennutzung und Medienerlebnis einen hohen Stellenwert. Eine wachsende Menge an Medienbotschaften zwingt die Bürger, die Information und Unterhaltung vor allem über elektronische Medien suchen, immer mehr zur Selektion. Bei der Entwicklung von Selektionskriterien muß Erziehung behilflich sein. In den Alltag vieler Kinder, Jugendlicher und junger Erwachsener sind Medien heute ganz selbstverständlich integriert; junge Menschen kennen in der Regel wenig Vorbehalte gegenüber neuen Medienangeboten und nehmen sie in ihre Erlebnis-, Gestaltungs- und Informationswelt auf. Bildungs- und Erziehungsinstitutionen müssen diese Entwicklung berücksichtigen."
+  },
+  {
+    "title": "Strafrecht und Strafvollzug",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/strafrecht-und-strafvollzug/",
+    "summary": "Holzschnitt aus Teuglers Laienspiegel Mainz 1508"
+  },
+  {
+    "title": "Verankerung in den Lehrplänen",
+    "path": "/detlef/medien/medienerziehung/verankerung-in-den-lehrplaenen/",
+    "summary": "In der Lehrplanfortschreibung der allgemeinbildenden Schulen 1992 - 1994 ist der Bereich Medienerziehung als wichtiges Querschnittsthema besonders hervorgehoben worden. Medienerzieherische Inhalte sind sowohl im Fachunterricht als auch in fächerverbindenden Themen auf unterschiedlichen Klassenstufen enthalten. Im Fachunterricht sind vor allem in folgenden Fächern medienerzieherische Aufgaben zu finden: Deutsch, Heimat- und Sachunterricht, Gemeinschaftskunde/Wirtschaftslehre, Geschichte/Gemeinschaftskunde, Bildende Kunst, Ethik, Religionslehre."
+  },
+  {
+    "title": "Universität und Studenten im Heidelberger Mittelalter",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/universitaet-und-studenten/",
+    "summary": "Hohe Schul zu Heydelberg (Holzschnitt von Sebastian Münster)"
+  },
+  {
+    "title": "Zukünftige Ansatzpunkte",
+    "path": "/detlef/medien/medienerziehung/zukuenftige-ansatzpunkte/",
+    "summary": "Die Schulverwaltung wird - nach Maßgabe der zur Verfügung stehenden technischen, organisatorischen und personellen Mittel - weitere medienpädagogische Aktivitäten aufgreifen oder in die Wege leiten. Landes- und Kreisbildstellen, aber auch engagierte Lehrer können hier Hinweise und Projektideen liefern, Schulen können ihre Erfahrungen heute zunehmend über das Internet zur Verfügung stellen und auf diese Weise auch pädagogische Diskussionen initiieren."
+  },
+  {
+    "title": "Zum Begriff Medienkultur",
+    "path": "/detlef/medien/medienerziehung/zum-begriff-medienkultur/",
+    "summary": "Mehr denn je beeinflussen Medien heute unser Verständnis von Kultur. Kein fester Kanon von Kulturgütern gibt heute Orientierung, \"Hochkultur\" und \"niedere\" Kultur werden nicht mehr wertend gegenübergestellt. Statt dessen gibt es mehrere Kulturen nebeneinander, die sich überschneiden, vermischen und dauernd neu formen. Unser Verständnis von Kultur ist in Bewegung und kann nicht von oben dekretiert werden."
+  },
+  {
+    "title": "In einer kleinen Stadt",
+    "path": "/detlef/deutsch/needful-things---in-einer-kleinen-stadt/in-einer-kleinen-stadt/in-einer-kleinen-stadt/",
+    "summary": ""
+  },
+  {
+    "title": "Armer und reicher Teufel (Ernst Bloch)",
+    "path": "/detlef/deutsch/textinterpretation/einige-beispiele/armer-und-reicher-teufel-ernst-bloch/",
+    "summary": "„Armer und reicher Teufel“, so heißt eine Kurzerzählung des berühmten Philosophen Ernst Bloch, die 1974 in „Geschichten zum Nachdenken“ von Rudolf Kreis veröffentlicht wurde. Bloch, der von 1885 bis 1977 gelebt und zuletzt in Tübingen Philosophie gelehrt hat, thematisiert in dieser 1930 erstmals erschienenen parabelhaften Erzählung die Frage, inwieweit Menschen willkürlich in das Leben anderer eingreifen dürfen."
+  },
+  {
+    "title": "Der Steinsberg",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geographische-lage/der-steinsberg/",
+    "summary": "Der Steinsberg liegt 333 Meter über dem Meeresspiegel. Er besteht - wie auch der Katzenbuckel im Odenwald - aus hartem Basalt, denn er ist der Überrest eines alten Vulkans. Weil der Basalt langsamer verwittert als der ihn umgebende Muschelkalk, ragt er heute weit über seine Umgebung hinaus. Den achteckigen Turm mit seinen vier Meter dicken Mauern, den so genannten \"Bergfried\" der Burg Steinsberg, kann man schon von Weitem sehen. Daher der Name \"Kompass des Kraichgaus\". Die Burg wurde ursprünglich um das Jahr 1230 herum gebaut und gehörte den Grafen von Ã–ttingen. Diese gaben sie später den Pfalzgrafen weiter, deren Beamte von hier aus die Besitztümer des Kurfürsten überwachten. 1525, im Bauernkrieg, wurde die Burg von Eppinger Bauern zerstört, die dafür später 5000 Gulden Schadensersatz zahlen mussten. Im Kraichgau gibt es eine Unmenge anderer Burgen, denn das relativ milde und fruchtbare Gebiet war ein beliebter Siedlungsraum für den Adel. Nahezu jedes Dorf besitzt eine alte Burg oder ein altes Schloss - und in zahlreichen Heimatstuben oder Heimatmuseen kann man einiges über die Geschichte der Region erfahren."
+  },
+  {
+    "title": "Bauernunruhen",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geschichte-und-politik/bauernunruhen/",
+    "summary": "Früher gab es einen uralte \"Kontrakt\": Die Herrschenden schützen unser Land, dafür dienen wir ihnen. Doch die Bauern wurden durch weltliche und geistliche Herrschaft immer mehr ausgepresst, ihre Freiheit noch weiter eingeschränkt und der Adel kam seinen Schutzverpflichtungen immer weniger nach. Im 15. Jahrhundert verteidigten sich die Bauern erfolgreich selbst, als Truppen im Elsass einfielen, weshalb der Kontrakt abgeschafft wurde. Auch die Kirche hatte durch Missstände und ihre Feudalherrschaft Ansehen verloren, was auch die Reformation in Gang brachte. Aus Achtung wurde Hass, der auch beim Anführer der Bundschuh-Verschwörung von 1502, Joß Fritz, tief saß. Er und seine Anhänger hatten den \"Bundschuh\" als Symbol, Feldzeichen und Name. Joß Fritz formulierte seine Ziele klar und verständlich:"
+  },
+  {
+    "title": "Phase relativer Toleranz",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/juden/phase-relativer-toleranz/",
+    "summary": "Schon in der Regierungszeit des Pfalzgrafen Ludwig II. (1253 - 1294) lebten jüdische Einwohner in der Umgebung von Heidelberg. Spätestens ab 1300 waren Juden in der Stadt Heidelberg selbst ansässig. Beim Verkauf des Dorfes Sandhofen an das Kloster Schönau 1300 wird \"Anselm, unser Jude zu Heidelberg\" als Zeuge erwähnt. Die Juden in Heidelberg standen als \"pfalzgräfliche Juden\" unter dem besonderen Schutz des Pfalzgrafen und waren nicht dem Heidelberger Stadtrat unterstellt. In der Regierungszeit des Pfalzgrafen Ruprecht I. entwickelte sich durch dessen liberale Politik eine \"ansehnliche jüdische Gemeinde mit Synagoge und Friedhof am Fuße des Gaisbergs\" (Chasia Turtel, Geschichte der jüdischen Gemeinde in Heidelberg, S. 1)"
+  },
+  {
+    "title": "Der Stadtaufbau von Heidelberg",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/stadtgruendung-stadtentwicklung/stadtaufbau/",
+    "summary": "Der Grundriß der staufischen Kernaltstadt zeigt durch seine Regelmäßigkeit die planmäßige Anlage neben dem bereits bestehenden Weiler. Die Altstadt war von der Planken- bis zur Grabengasse 600 m lang und an der Grabengasse 450 m breit. Parallel zum Neckar erstreckte sich die Hauptstraße als Längsachse vom Obertor zum Untertor (später Mitteltor). Von den Längsstraßen war die Untere Straße von gleicher wirtschaftlicher Bedeutung und als Wohngegend ebenso gut angesehen wie die Hauptstraße, während die Ingrimstraße vom Verkehr, der über die Alte Brücke strömte, abgelegen war. Die Ingrimstraße hörte bei der Kettengasse auf. Die Merianstraße ist ein späterer Durchbruch, der dann \"Untere Ingrimstraße\" genannt wurde. Alle weiteren heutigen Längsstraßen waren einfach Wege entlang der Stadtmauer. Die Hauptquerachse verlief von der Alten Brücke über den Marktplatz im Mittelpunkt der Stadt zum Schloßberg hin. Die zahlreichen Quergassen, die die Längsstraßen durchkreuzen, bilden ein regelmäßiges Grundmuster, das die Planmäßigkeit der Stadt deutlich hervortreten läßt."
+  },
+  {
+    "title": "I. Strafe - der Triumph des Guten",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/strafrecht-und-strafvollzug/triumph-des-guten/",
+    "summary": "Aus heutiger Sicht erscheinen Strafrecht, Strafverfahren und Strafvollzug im Mittelalter als unvorstellbar grausam und mitleidslos. Die mit fantasievollen Qualen verbundenen öffentlich vollstreckten Hinrichtungen wurden von der Obrigkeit bewußt als Volksfeste inszeniert. Es gab sogar Städte, die bereit waren, für solche Gelegenheiten zu bezahlen, um sich eine Hinrichtung zu kaufen. Wie ist eine solche Einstellung zu erklären?"
+  },
+  {
+    "title": "Ausbau der Universität und Rückschläge",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/universitaet-und-studenten/ausbau-der-universitaet-und-rueckschlaege/",
+    "summary": "Zur Entwicklung der Universität gehörte auch die Tatsache, dass Hochschullehrer viel Zeit für die kurfürstliche Verwaltung aufwenden mussten und insgesamt weniger frei waren, als in der 1388 vom Bürgertum gegründeten Universität in Köln, die von Anfang an eine Konkurrenz für Heidelberg war."
+  },
+  {
+    "title": "favicon ico mit MS Paint und BMP2ICO erstellen",
+    "path": "/julian/techzap/design/microsoft-paint/favicon-ico-mit-ms-paint-und-bmp2ico-erstellen/",
+    "summary": "Problem: Microsoft Paint erstellt nur die Web-Grafikformate .jpg, .gif und .png - Das .ico Format für favicon-Dateien wird nicht unterstützt."
+  },
+  {
+    "title": "Einführung in die Programmierung - Kapitel 1: Die Grundlagen",
+    "path": "/julian/techzap/programmierung/einfuehrung-in-das-programmieren/grundlagen-variablen-operatoren-funktionen/",
+    "summary": "Sie würden gerne den Computer programmieren sind aber durch die Vielzahl an Fachausdrücken und Programmiertheorien eingeschüchtert? Dann machen Sie es sich in Ihrem Stuhl bequem und freuen Sie sich auf eine Einführung, die jeder versteht."
+  },
+  {
+    "title": "Perl Einzeiler: Suchen und Ersetzen in Dateien",
+    "path": "/julian/techzap/programmierung/perl/perl-einzeiler-suchen-und-ersetzen-in-dateien/",
+    "summary": "Problem: In Dateien soll mit einem einzeiligen Perl-Befehl eine Zeichenfolge durch eine andere ersetzt werden und das Ergebnis wieder in die jeweilige Datei gespeichert werden."
+  },
+  {
+    "title": "Mit grep Zeilen entfernen, die in zwei Dateien doppelt vorkommen",
+    "path": "/julian/techzap/server/unix-linux/grep-in-zwei-dateien-vorkommende-zeilen-entfernen/",
+    "summary": "Problem: Es sollen zwei Dateien verglichen werden und dabei alle Zeilen der ersten Datei, die ebenfalls in der zweiten Datei vorkommen, entfernt werden."
+  },
+  {
+    "title": "IIS und Apache auf einem Server parallel betreiben",
+    "path": "/julian/techzap/server/windows/iis-und-apache-auf-einem-server-parallel-betreiben/",
+    "summary": "Problem: IIS und Apache sollen auf einem Server parallel betrieben werden"
+  },
+  {
+    "title": "Strg+Alt+F1 bzw Ctrl+Alt+F1 an VMware senden",
+    "path": "/julian/techzap/technik/vmware/strg-alt-f1-bzw-ctrl-alt-f1-an-vmware-senden/",
+    "summary": "Problem: Der VMware Player nimmt die Kombination Strg+Alt+F1 oder eine andere Strg+Alt+Fn Kombination nicht an"
+  },
+  {
+    "title": "Wie ist der Mensch?  (Michel de Montaigne)",
+    "path": "/detlef/deutsch/textinterpretation/einige-beispiele/wie-ist-der-mensch-michel-de-montaigne/",
+    "summary": "Michel de Montaigne (1533-1592)"
+  },
+  {
+    "title": "Die Elsenz",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geographische-lage/die-elsenz/",
+    "summary": "Die Elsenz ist von der Mündung bis zur Quelle 53,5 Kilometer lang. Ihr Einzugsgebiet beträgt 542 Quadratkilometer, d.h. die Elsenz dominiert ganz eindeutig den Kraichgau - sie ist dessen Lebensader. Von der Quelle bei dem Ort \"Elsenz\" in 240 Metern über dem Meeresspiegel bis zur Mündung ergibt sich ein Gefälle von 128,30 Metern. Auf ihrem langen Weg durchquert die Elsenz 15 Orte. Dabei fließen ihr unterwegs (in Fließrichtung gesehen) von links 15 und von rechts 19 Nebenbäche zu."
+  },
+  {
+    "title": "Der Gaubegriff",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geschichte-und-politik/der-gaubegriff/",
+    "summary": "Gau hieß im Altdeutschen \"gauwi\", eine Bezeichnung, in der bereits der heute noch übliche Begriff \"Au\" enthalten war, dem fruchtbaren Land am Bach oder Fluss. Meist waren die Gaue nach Bachläufen benannt. Gau war ursprünglich eine Landschaftsbezeichnung. Da der Übergang von einer Landschaft zur anderen allmählich erfolgt, führte das häufig zu Überlagerungen. Nur an breiten Flüssen, wie Rhein oder Neckar, gibt es klare, natürliche Begrenzungen. Im 8. und 9. Jahrhundert wurden Gaubezeichnungen in Urkunden als Lageangabe erstmals erwähnt, wenn Orte den Besitzer wechselten. Der Gau war ursprünglich kein politisches Verwaltungsgebiet. Das änderte sich, als im fränkischen Reich Grafschaften eingeführt wurden, die Verwaltungsfunktionen der Monarchie übernahmen. Die Grafen hatten im Namen des Königs die Gerichtsbarkeit auszuüben, finanzielle Obliegenheiten wahrzunehmen, die waffenfähigen Männer auszusuchen und den Heerbann zu organisieren."
+  },
+  {
+    "title": "Spielball fremder Interessen",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/juden/spielball-fremder-interessen/",
+    "summary": "Die Entwicklung der jüdischen Gemeinde wurde 1348/49 zur Zeit des \"Schwarzen Todes\" jäh unterbrochen, als sich der Volkszorn gegen die \"jüdischen Brunnenvergifter\" richtete, und die Juden teils erschlagen, teils vertrieben wurden. Das Eigentum der 1348 getöteten Heidelberger Juden wurde beschlagnahmt und von Ruprecht I. 1358 seinem Vasallen Engelbert von Hirschhorn übergeben."
+  },
+  {
+    "title": "Heidelberg: Entstehung und Namensgebung",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/stadtgruendung-stadtentwicklung/entstehung-und-namensgebung/",
+    "summary": "Vermutlich während der Amtszeit Pfalzgraf Rudolfs entstand unter seiner Burg ein Versorgungssiedlung, die später als Heidelberg bezeichnet wurde. Burg und Siedlung gehörten den Bischöfen von Worms, und die Pfalzgrafen nahmen sie von ihnen zu Lehen. Das genaue Entstehungsdatum der Stadt Heidelberg ist bis heute unbekannt geblieben.(2) Laut einer Urkunde des Klosters Schönau steht jedenfalls fest, daß Heidelberg mit Sicherheit seit dem Jahre 1196 existierte und daß ein Leutpriester (plebanus) an der Peterskirche, der älteren und eigentlichen Pfarrkirche der Stadt, seinen Dienst versah. Möglicherweise unterstand Heidelberg als staufische Gründung aber auch zunächst dem Reich, bevor es dem Bischof von Worms und später dem Pfalzgrafen bei Rhein zu Lehen gegeben wurde. Für diese zweite These spricht die Tatsache, daß Heidelberg bis zum Jahre 1289 den Reichsadler in seinem Wappen trug."
+  },
+  {
+    "title": "II. Constitutio Criminalis Carolina",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/strafrecht-und-strafvollzug/constitutio-criminalis-carolina/",
+    "summary": "Das erste allgemeine deutsche Strafgesetzbuch war die Constitutio Criminalis Carolina (Peinliche Halsgerichtsordnung Kaiser Karls V.), die 1532 auf dem Regensburger Reichstag verabschiedet wurde. In ihr wurde der sogenannte Ordalprozeß, dessen anerkanntes Beweismittel das Gottesurteil war, von einem Indizien- und Geständnisprozeß abgelöst. Diese Prozeßform wurde von der Carolina bis in die letzte Einzelheit geregelt. Das Geständnis der Angeklagten galt fortan als das verläßlichste Mittel der Wahrheitsfindung. Es war die Aufgabe des Richters, auf legale Weise ein Geständnis zu erzwingen und durch Indizien und Nachforschungen die Wahrheit des gestandenen Verbrechens zu erhärten. Die \"Carolina\" versuchte, mit dem Richter eine unabhängige Instanz einzusetzen. Er war ein von der Obrigkeit beauftragter Beamter mit festem Gehalt, er mußte einen Amtseid leisten, und es war ihm verboten, eine Belohnung vom Ankläger zu nehmen."
+  },
+  {
+    "title": "Ausbau und Finanzierung der Universität",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/universitaet-und-studenten/ausbau-und-finanzierung/",
+    "summary": "Im Jahre 1398 vergab der Papst auf Bitten der Kurfürsten der Universität 12 Pfründen aus den Domstiften Speyer und Worms und aus weiteren Stiften der beiden Städte und dem Territorium der Kurpfalz. Da es bei der Pfründenverteilung um einen gravierenden Eingriff in bestehende Besitzstände zugunsten des Neuankömmlings Universität ging, war jeweils das Zusammenspiel von Papst und Landesherren notwendig, um die neuen Rechte auch durchzusetzen. Wenn der alte Inhaber einer Pfründe verzichtete oder starb, konnte diese dann an einen Universitätslehrer fallen."
+  },
+  {
+    "title": "ListenOnlyList Registry Werte - IIS an IP binden",
+    "path": "/julian/techzap/server/windows/listenonlylist-registry-werte-iis-an-ip-binden/",
+    "summary": "Problem: IIS bindet nur an bestimmte IP-Adressen oder an alle vorhandenen"
+  },
+  {
+    "title": "Mühlen an der Elsenz",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geographische-lage/mhlen-an-der-elsenz/",
+    "summary": ""
+  },
+  {
+    "title": "Der Kraichgau als militärisches Operationsgebiet",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geschichte-und-politik/der-kraichgau-als-militaerisches-operationsgebiet/",
+    "summary": "Das Neckartal und die Rheinebene eigneten sich wegen ihrer alten Heerstraßen vorzüglich zum Durchzug der Truppen. Der natürliche Reichtum des Kraichgaus zog die Soldaten magisch an und so hatten die anliegenden Dörfer und ihre Bevölkerung schwer unter militärischen Aktionen zu leiden."
+  },
+  {
+    "title": "Stadtgründung - Stadtentwicklung Stadtverfassung",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/stadtgruendung-stadtentwicklung/stadtverfassung/",
+    "summary": "Der bestimmende Faktor für die Besiedlung und die kulturelle Erschließung des Heidelberger Raumes war die Gründung der Benediktinerabtei Lorsch im Jahre 764. In den Urkunden des Lorscher Codex werden lange vor der Gründung der Stadt Heidelberg heutige Stadtteile erwähnt: Neuenheim 765, Handschuhsheim 765, Rohrbach 766, Kirchheim 767, Wieblingen 767 und Bergheim 769. In diesen Siedlungen der karolingischen Zeit gab es bereits Dorfkirchen, z.B. in Handschuhsheim \"St. Nazarius\" (später St. Vitus) oder in Bergheim, wo die Kirchstraße noch heute daran erinnert. (1) In all diesen Orten wurden \"Reihengräberfriedhöfe\" gefunden, die auf vorchristliche Zeit verweisen können, aber auch bei Merowingern und Karolingern noch üblich waren."
+  },
+  {
+    "title": "III. Verbrechen und Strafen",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/strafrecht-und-strafvollzug/verbrechen-und-strafen/",
+    "summary": "Für Tötungsdelikte wurde stets die Todesstrafe (meist Rädern und Enthaupten) verhängt. Vieh- und Getreidediebstahl sowie Diebstahl in Kirchen, Schmieden und Mühlen zog in der Regel den Tod durch den Strang nach sich. Wegen Münz-, Urkundenfälschung und Raub Verurteilte wurden ebenfalls hingerichtet. Sittlichkeitsdelikte wie Vergewaltigung, Homosexualität, Blutschande und Bigamie strafte man mit Enthauptung, Ehebruch wurde nach Gebieten unterschiedlich mit Pranger, Gefängnis, Rutenstrafe, aber auch mit dem Tod geahndet. Für Gotteslästerung, Ketzerei und Hexerei, also Religionsdelikte, mit denen ursprünglich kirchliche Gerichte befaßt waren, wurden ab dem 13. Jahrhundert auch weltliche Gerichte zuständig, da man überzeugt war, daß daraus Schaden für die Gesellschaft erwachsen könne, indem Gott als Vergeltung das ganze Land mit Plagen überziehe. Ketzer und Hexen starben den Feuertod. Sie hatte in so abscheulicher Weise gegen göttliches und menschliches Recht verstoßen, daß sie gänzlich vom Erdboden vertilgt werden mußten. Staatsverbrechen galten seit alters her als schwere Verbrechen und wurden daher mit verschiedenen Todesarten bestraft: Landesverrat mit Erhängen, Ertränken, Rädern und Vierteilen, Verschwörung und Aufruhr, sogenannte Majestätsverbrechen, mit Enthauptung."
+  },
+  {
+    "title": "Die Anfänge: Stadt, Hof und Universität",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/universitaet-und-studenten/die-anfaenge-stadt-hof-und-universitaet/",
+    "summary": "Natürlich brachten die neuankommenden Universitätsangehörigen mit all ihren Privilegien und ihrem fremdartigen Auftreten auch viele Schwierigkeiten in die Stadt am Neckar, die noch einen sehr dörflichen Charakter hatte, - wo die Schweine durch die Gassen streunten und die Geruchsnerven der Einwohner weit mehr auszuhalten hatten als heute (wenn auch keine Verkehrsabgase). Das damalige scharfe Würzen der Speisen hing sicher auch damit zusammen, daß man den Gestank aus den Gassen beim Essen durch die Reizung der Geschmacksnerven überbieten wollte..."
+  },
+  {
+    "title": "Die Burg Steinsberg",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geschichte-und-politik/die-burg-steinsberg/",
+    "summary": "Der Steinsberg, ein schon lange erloschener Vulkan, ist mit 333 Metern die höchste Erhebung im Kraichgau und diente frühen Kosmosgraphen als Orientierungsmarke (daher die Bezeichnung: \"Kompass des Kraichgaus\"). Eine so beherrschende Lage nach allen Seiten forderte geradezu eine Befestigung. Die Burg Steinsberg wurde 1109 erstmals urkundlich erwähnt. Sie wechselte im Laufe der Jahre mehrmals ihre Burgherren. Um 1200 kam sie in den Besitz des Grafen von Ã–ttingen, welcher den mächtigen Burgfried erbauen lies, wodurch die Burg zum bedeutendsten Grafensitz des Kraichgaus wurde. In den nächsten Jahrhunderten wechselte sie noch ein paar mal ihre Besitzer, bis sie schließlich 1777 aufgrund eines Blitzschlages in den Turm aufgegeben wurde. 1973 kaufte die Stadt Sinsheim die inzwischen zur Ruine zerfallende Burg, von der nur der Burgfried und Teile der Ringmauer erhalten blieben."
+  },
+  {
+    "title": "IV. Strafordnung im mittelalterlichen Heidelberg",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/strafrecht-und-strafvollzug/strafordnung/",
+    "summary": "Wer in unseren Tagen auf Heidelbergs Marktplatz verweilt, ahnt kaum, daß zwischen Rathaus und Heiliggeistkirche jahrhundertelang Menschen enthauptet wurden. Da der Marktplatz im Mittelalter ohnehin Zentrum des öffentlichen Lebens war, lag es nahe, ihn auch für den Strafvollzug zu nutzen. Die Hinrichtung fand auf einer erhöhten Plattform statt, die groß genug war, um neben dem Verurteilten und dem Scharfrichter auch die öffentlichen Zeugen und den Priester aufzunehmen. Der Scharfrichter konnte darauf, für die Zuschauer gut sichtbar, aber ohne von diesen behindert zu werden, seines Amtes walten. Seine Tätigkeit galt übrigens als unehrenhaft, doch die folgende Gebührenordnung für Scharfrichter, die im Jahre 1743 von der kurfürstlichen Regierung erlassen wurde und immer noch eine bedeutende Quelle für die mittelalterliche Strafpraxis in Heidelberg darstellt (4), läßt vermuten, daß Angehörige dieses Berufsstandes den Ehrverlust verschmerzen konnten."
+  },
+  {
+    "title": "Die Universität zwischen Mittelalter und Neuzeit",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/universitaet-und-studenten/die-universitaet-zwischen-mittelalter-und-neuzeit/",
+    "summary": "In dem Aufsatz \"Die Aktualität des Mittelalters\", der 1987 erschienen ist und Ende 1986 in einer Vorveröffentlichung des C.H. Beck-Verlages (\"Einladung ins Mittelalter\", S. 24 - 34) abgedruckt wurde, schreibt der Historiker Thomas Nipperdey:"
+  },
+  {
+    "title": "Friedrich Hecker",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geschichte-und-politik/friedrich-hecker/",
+    "summary": "Friedrich Franz Karl Hecker wurde 1811 in Eichtersheim/Baden geboren. Als Student und später als Alter Herr, gehörte er drei schlagenden Verbindungen an. Wie auch sein Zeit- und womöglich teilweise Gesinnungsgenosse Karl Marx war er Corpsstudent. Nach seinem Studium in Heidelberg und München bestand er 1834 die juristische Staatsprüfung und promovierte anschließend. Danach absolvierte er eine typische Beamtenlaufbahn. 1842 wurde er als bisher jüngstes Mitglied der liberalen Oppositionspartei in die zweite Kammer des badischen Landtags gewählt, welche jedoch mit heutigen Parlamenten nicht zu vergleichen ist. Nur sehr wenige Bürger hatten damals Wahlrecht (Zensuswahlrecht), und der Großherzog konnte sich sogar über Beschlüsse des Parlaments hinwegsetzen. Im Landtag fiel Hecker schnell als geschickter und für ein \"Honoratioren-Parlament\" radikaler Redner auf. Nachdem im Februar 1848 die meisten reaktionären Regierungen vertrieben werden konnten, tagte Ende März in Frankfurt das sogenannte Vorparlament. Er versuchte, die Errungenschaften der Revolution zu sichern, hatte damit aber im Parlament keinen Erfolg. Eine Gruppe von radikalen Republikanern um Friedrich Hecker wollte diesen Zustand nicht länger hinnehmen und rang sich zu einer Aktion durch. Sie planten, von Konstanz aus, wo die erste deutsche Republik ausgerufen wurde, einen Zug durch Baden zu unternehmen, um letztendlich bis zur badischen Hauptstadt Karlsruhe vorzudringen (den so genannten Heckerzug). Jedoch, der Plan scheiterte recht kläglich: Noch südlich von Freiburg kam es zu den ersten Scharmützeln zwischen Bundestruppen und den Revolutionären. Da sich die Hecker-Anhänger vorher nicht mit anderen Revolutionsgruppen hatten vereinigen können, waren sie hoffnungslos unterlegen. Friedrich Hecker musste in die Schweiz fliehen. Die Popularität von Hecker blieb aber ungebrochen. Im ganzen Land singt man die Hecker-Lieder, der Heckerhut wird zum Kennzeichen der Demokraten. Von der Schweiz aus emigrierte er in die USA. Friedrich Hecker war einer der populärsten Achtundvierziger und als er in New York ankam, erwarteten ihn über 20 000 Menschen mit einem Meer von schwarz-rot-goldenen Fahnen und sangen das einst so berühmte Heckerlied. Als es im Mai 1849 den Revolutionären tatsächlich gelang, den Großherzog zu vertreiben und die Republik auszurufen, reiste Friedrich Hecker mit Freiwilligen aus Amerika an, kam aber zu spät und emigrierte danach endgültig in die USA."
+  },
+  {
+    "title": "V. Richtstätten und Gefängnisse im alten Heidelberg",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/strafrecht-und-strafvollzug/richtstaetten-und-gefaengnisse/",
+    "summary": "Auch außerhalb der Stadt gab es eine stattliche Anzahl von Richtstätten. An der Kreuzung Rohrbacherstraße / Bergheimerstraße befand sich einst der \"Rabenstein\", wo ebenfalls mit dem Schwerte gerichtet wurde."
+  },
+  {
+    "title": "Konflikte mit Hofbediensteten, Bürgern und Juden",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/universitaet-und-studenten/konflikte-mit-hofbediensteten-buergern-und-juden/",
+    "summary": "Der Alltag der Studenten war meist nicht von großen Gedanken, sondern von sehr Banalem bestimmt. Schon am 24. November 1396 mußte ihnen verboten werden, die Tauben der Bürger zu jagen; wer sich auch nur ein wenig ins Uni-Archiv vertieft, der findet noch eine Menge anderer Verbote dieser Art. Den ersten sogenannten \"Studentenkrieg\" gab es 1406 in Heidelberg. Er entstand aus geringer Ursache, einem Streit zwischen Hofleuten - die auch Waffen tragen durften - und Studenten auf offenem Markt, der schließlich zum gewaltsamen Sturm der Hofleute (um die sich einiges Volk aus der Stadt gesammelt hatte) auf das Haus des Rektors führte, wo zahlreiche Studenten wohnten und Schutz gesucht hatten. Mit Axt, Schwert und Lanze bewaffnet, waren die Eindringlinge auf die fliehenden Universitätsangehörigen losgegangen. Jeder, der mit geschorenem Kopf, Barett und langem Talar (\"Langmäntel\") herumlief, wurde verfolgt, und im Hause des Rektors spielten sich wüste Szenen ab. Die ganze Stadt war in Aufruhr. \"Tumultus\" wurde dieser Zustand jetzt immer wiederkehrend in den überlieferten Senatsprotokollen der Universität genannt. Verstöße dieser Art gegen Universitätsrecht wurden zwar hart bestraft, sorgten aber jeweils noch lange für Mißstimmung bei den Universitätsangehörigen."
+  },
+  {
+    "title": "Joss Fritz und der Bundschuh",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geschichte-und-politik/joss-fritz-und-der-bundschuh/",
+    "summary": "Joß Fritz wurde ca. 1470 in Untergrombach bei Bruchsal geboren; es wird angenommen, dass er nicht aus der Not leidenden Unterschicht stammte. Er war Führer der Bundschuhbewegung und bereitete zwischen 1502 und 1517 drei Bauernaufstände im Zeichen des Bundschuhs vor. Nach dem blutigen Scheitern des großen Bauernkrieges von 1525 verliert sich seine Spur. 1493 gab es die erste Bauernerhebung unter dem Zeichen des Bundschuhs im elsässischen Schlettstadt. Der Bund wird zerschlagen, einige Anführer hingerichtet. 1502 geschehen in Ersingen und Biflingen bei Pforzheim im Januar des Jahres politische Gewalttaten die wahrscheinlich mit dem Bundschuh zu tun haben. Ab März werden Vorbereitungen für den ersten Bundschuhaufstand getroffen. Er soll am 22. April stattfinden, wird jedoch auf Anfang Mai verschoben. Im April erhält die Verwaltung Speyer Kenntnis von dem geplanten Aufstand. Viele Beteiligte werden verhaftet, einige können fliehen. So auch Joß Fritz. Die Verhafteten werden zum Tod oder zu schweren Strafen verurteilt. 1510 kommt es zu einem Volksauflauf gegen die städtischen Autoritäten in Schlettstadt. Das Schlagwort \"Bundschuh\" kursiert. Im Frühjahr 1513 sucht Joß Fritz neue Verbündete für den Bundschuh in Lehen und den umliegenden Dörfern. Anläufe zur Bemalung einer Bundschuhfahne in Lehen undFreiburg scheitern. Joß Fritz gelingt es das Banner in Heilbronn oder Metz bemalen zu lassen. Am 23. September kommt es zum entscheidenden Treffen der Bundschuher von Lehen. Ein für den 9. Oktober in Biengen geplanter Aufstand wird verraten und Joß Fritz flieht mit einigen Mitverschwörern nach Seewen bei Basel. Dort entgeht er nochmals am 19. Oktober seiner Verhaftung. Später kursiert das Gerücht, Joß Fritz habe die Lehener Bundschuhfahne in der Wallfahrtskirche Einsiedeln hinterlegt. Im April 1517 versammeln sich Bundschuher in Derlingen bei Bretten. Der Geheimbund wird größer. Joß Fritz trifft sich im elsässischen Oberehnheim, sowie in Zurzach, Villingen und Horb mit Anhängern. Im September wird Michel von Dinkelsbühl, einer der wichtigsten Anhänger des Joß Fritz gefasst und verhindert durch sein Geständnis weitere Aktionen des Bundschuh. Der Geheimbund von 1517 ist zerschlagen, Joß Fritz aber gelingt erneut die Flucht. Im Juni 1525 beginnt die Bauernrevolution. Bei Klettgau wird Joß Fritz zum letzten Mal gesehen. Über sein Schicksal ist ab 1524/25 nichts mehr bekannt."
+  },
+  {
+    "title": "VI. Anmerkungen",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/strafrecht-und-strafvollzug/anmerkungen/",
+    "summary": "1.) Vgl. W. Schild, Strafrecht als Phänomen der Geistesgeschichte, in: Strafjustiz in alter Zeit, Rothenburg 1980, S. 31 ff."
+  },
+  {
+    "title": "Motive für den Aufbau einer Universität",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/universitaet-und-studenten/motive-fuer-den-aufbau-einer-universitaet/",
+    "summary": "1. Der ehrgeizige Wittelsbacher Ruprecht I. wollte das durch viele kleine Besitztümer zerschnittene pfälzische Territorium abrunden und eine einheitliche Verwaltung aufbauen. Dafür brauchte er kenntnisreiche Leute, die mit Besitzrechten verschiedener Rechtslagen kalkulieren, taktieren und unterschiedliche Traditionen ausgleichen konnten. Dieser Aspekt in den Überlegungen des pfälzischen Landesherrn, der vor allem die Magister (weniger die Studenten) betraf, kam dann unter dem Großneffen Ruprechts I., Ruprecht III., der von 1400 bis 1410 König des \"Heiligen Römischen Reiches\" war, und vor allem ab Mitte des 15. Jahrhunderts deutlicher zum Tragen als in der Zeit der ersten Anfänge der Heidelberger Universität. Die Ausbreitung des römischen Rechtes, die Anfänge einer sogenannten \"Verwissenschaftlichung der Politik\" brachten eine neuen Rationalität in die inneren und äußeren Beziehungen der Länder..."
+  },
+  {
+    "title": "Renaissance im Kraichgau",
+    "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/geschichte-und-politik/renaissance-im-kraichgau/",
+    "summary": "Im Kraichgau war das 16. Jahrhundert eine Blütezeit baulichen Geschehens. Viele Grundherren bauten ihre Burgen in wohnlichere Gebäude um oder erstellten neue Schlösser, zudem wurde der nur noch Seuchen bringende Wassergraben häufig zugeschüttet und an seine Stelle Burg- oder Schlossgärten angelegt. Die Zeit der Renaissance war Ausdruck einer neuen künstlerischen Formsprache, als Folge des Umdenkens nach der Reformation. Hier bei uns entwickelte sich der neue Stil aber zunächst nur zögernd."
+  },
+  {
+    "title": "Studentenunruhen im alten Heidelberg",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/universitaet-und-studenten/studentenunruhen/",
+    "summary": ""
+  },
+  {
+    "title": "Universität und Studenten im Heidelberger Mittelalter: Einleitung",
+    "path": "/detlef/projekte/heidelberg-im-mittelalter/universitaet-und-studenten/einleitung/",
+    "summary": "Die Heidelberger Universität feierte im ihr 1986 ihr 600-jähriges Bestehen und rühmt sich, die älteste deutsche Universität zu sein. (Wir vermeiden hier jegliche Problematisierung der Frage, was man unter \"deutsch\" verstehen kann: Das Kaiserreich des Spätmittelalters? Das wilhelminische Kaiserreich? Deutschland vor der nationalsozialistischen Expansion oder einer der beiden Rumpfstaaten Deutschlands nach 1945?)"
+  }
+]
