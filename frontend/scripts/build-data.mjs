@@ -69,7 +69,7 @@ if (process.env.STRAPI_TOKEN_RO) {
 
 // Check if EDIT folder exists and should be used
 const editFolderPath = path.join(repoRoot, 'EDIT');
-const editFolderExists = await fs.pathExists(editFolderPath);
+const editFolderExists = fs.existsSync(editFolderPath);
 const useEditFolderEnv = process.env.USE_EDIT_FOLDER === 'true';
 const USE_EDIT_FOLDER = useEditFolderEnv || editFolderExists;
 

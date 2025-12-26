@@ -13,7 +13,7 @@ const repoRoot = path.resolve(projectRoot, "..");
 
 // Load environment variables
 const frontendEnv = path.join(projectRoot, ".env");
-if (await fs.pathExists(frontendEnv)) {
+if (fs.existsSync(frontendEnv)) {
   dotenv.config({ path: frontendEnv, override: false });
 }
 
@@ -55,7 +55,7 @@ const normalizePath = (value, fallback = null) => {
 // Recursively scan directory for markdown files
 async function scanDirectory(dir, basePath = "") {
   const files = [];
-  const entries = await fs.readdir(dir);
+  const entries = await fs.readdir(dir, { withFileTypes: true });
 
   for (const entry of entries) {
     const fullPath = path.join(dir, entry.name);
@@ -109,11 +109,12 @@ function parseMarkdownFile(filePath, relativePath) {
 
   // Extract images from frontmatter or find in same directory
   const images = data.images || [];
+  const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
+  
   if (images.length === 0) {
     // Try to find images in the same directory
     const fileDir = path.dirname(filePath);
     const baseName = slug;
-    const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
     
     for (let i = 1; i <= 10; i++) {
       for (const ext of imageExtensions) {
@@ -135,20 +136,21 @@ function parseMarkdownFile(filePath, relativePath) {
     const uploadsDir = path.join(repoRoot, 'uploads');
     if (fs.existsSync(uploadsDir)) {
       const uploadFiles = fs.readdirSync(uploadsDir);
+      const baseName = slug;
       
       for (let i = 1; i <= 10; i++) {
         for (const ext of imageExtensions) {
           const imageName = `${baseName}-${i}${ext}`;
           const imagePath = path.join(uploadsDir, imageName);
-          if (uploadFiles.includes(imageName)) {
+          if (uploadFiles.some(file => file.name === imageName)) {
             images.push({
               url: '/' + imageName,
               alt: title,
             });
           }
         }
-      }
     }
+  }
   }
 
   // Process image URLs to be absolute
@@ -382,7 +384,7 @@ function buildNavigation(pages, pageMap) {
 export async function parseEditFolder() {
   console.log("Parsing EDIT folder...");
 
-  if (!await fs.pathExists(editFolder)) {
+  if (!fs.existsSync(editFolder)) {
     throw new Error(`EDIT folder not found at ${editFolder}`);
   }
 
