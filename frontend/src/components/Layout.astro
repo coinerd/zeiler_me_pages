@@ -38,56 +38,25 @@ const countItems = (items: any[]): number => {
 };
 
 /**
- * Extract and flatten navigation sections from the deeply nested nav.json structure
- * The nav structure is: Weitere Inhalte → [Detlef/Julian Zeiler] → [Content Sections]
+ * Extract and flatten navigation sections from the flat nav.json structure
+ * The nav structure is now flat with sections like: "Deutsch", "Geschichte", "Medien", etc.
  * This function extracts actual content sections to be displayed in the navigation menu
  */
 const extractNavigationSections = (nav: any[]): any[] => {
   const sections: any[] = [];
   
-  // Find root "Weitere Inhalte" section
-  const weitereInhalte = nav.find((item: any) => item.id === "__other");
-  if (!weitereInhalte?.children) return sections;
-  
-  // Find main container (id: 399 - "IT & Medien, Geschichte, Deutsch")
-  const mainContainer = weitereInhalte.children.find((item: any) => item.id === 399);
-  if (!mainContainer?.children) return sections;
-  
-  // Extract sections from Detlef Zeiler and Julian Zeiler branches
-  const detlefSection = mainContainer.children.find((item: any) => item.id === 401); // Detlef Zeiler
-  const julianSection = mainContainer.children.find((item: any) => item.id === 402); // Julian Zeiler
-  
-  // Extract Detlef's content sections
-  if (detlefSection?.children) {
-    detlefSection.children.forEach((item: any) => {
-      // Skip non-section items like Impressum, Jeremia
-      if (["Impressum", "Jeremia"].includes(item.title)) return;
-      
-      sections.push({
-        id: item.id,
-        title: item.title,
-        path: item.path,
-        children: item.children || [],
-        summary: item.summary,
-      });
+  nav.forEach((item: any) => {
+    // Skip non-section items like Impressum, Jeremia, About me (old), Contact, Work (old)
+    if (["Impressum", "Jeremia", "About me (old)", "Contact / Impressum", "Work (old)"].includes(item.title)) return;
+    
+    sections.push({
+      id: item.id,
+      title: item.title,
+      path: item.path,
+      children: item.children || [],
+      summary: item.summary,
     });
-  }
-  
-  // Extract Julian's content sections
-  if (julianSection?.children) {
-    julianSection.children.forEach((item: any) => {
-      // Skip "old" pages, keep only content sections
-      if (item.title.includes("(old)")) return;
-      
-      sections.push({
-        id: item.id,
-        title: item.title,
-        path: item.path,
-        children: item.children || [],
-        summary: item.summary,
-      });
-    });
-  }
+  });
   
   return sections;
 };
