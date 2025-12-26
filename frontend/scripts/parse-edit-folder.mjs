@@ -207,18 +207,80 @@ function buildHierarchy(pages) {
   return { pageMap, pages };
 }
 
+// Auto-detect section roots from file structure
+function detectSections(pages) {
+  const sectionRoots = new Set();
+  const sectionMap = new Map();
+
+  // Find all pages that have children - these are potential section roots
+  pages.forEach(page => {
+    if (page.children && page.children.length > 0) {
+      sectionRoots.add(page.path);
+    }
+  });
+
+  // Also consider pages at depth 2 (e.g., /detlef/deutsch/) as potential sections
+  pages.forEach(page => {
+    const pathParts = page.path.split('/').filter(p => p);
+    if (pathParts.length === 2) {
+      sectionRoots.add(page.path);
+    }
+  });
+
+  // Create mapping from section path to section slug
+  sectionRoots.forEach(sectionPath => {
+    const pathParts = sectionPath.split('/').filter(p => p);
+    if (pathParts.length > 0) {
+      const sectionSlug = pathParts[pathParts.length - 1];
+      sectionMap.set(sectionPath, sectionSlug);
+    }
+  });
+
+  return sectionMap;
+}
+
+// Assign section values to pages based on their path
+function assignSections(pages, sectionMap) {
+  pages.forEach(page => {
+    if (page.path === '/') return;
+
+    // Find the longest matching section path that is a prefix of the page path
+    let bestMatch = null;
+    let bestMatchLength = 0;
+
+    for (const [sectionPath, sectionSlug] of sectionMap.entries()) {
+      if (page.path !== sectionPath && page.path.startsWith(sectionPath)) {
+        if (sectionPath.length > bestMatchLength) {
+          bestMatch = sectionSlug;
+          bestMatchLength = sectionPath.length;
+        }
+      }
+    }
+
+    if (bestMatch) {
+      page.section = bestMatch;
+    }
+  });
+}
+
 // Build navigation structure
 function buildNavigation(pages, pageMap) {
+  // Auto-detect sections from file structure
+  const sectionMap = detectSections(pages);
+  
+  // Assign section values to pages
+  assignSections(pages, sectionMap);
+
   // Group by section
-  const sectionMap = new Map();
+  const sectionPagesMap = new Map();
   const rootPages = [];
 
   pages.forEach(page => {
     if (page.section) {
-      if (!sectionMap.has(page.section)) {
-        sectionMap.set(page.section, []);
+      if (!sectionPagesMap.has(page.section)) {
+        sectionPagesMap.set(page.section, []);
       }
-      sectionMap.get(page.section).push(page);
+      sectionPagesMap.get(page.section).push(page);
     } else if (!page.parentId) {
       rootPages.push(page);
     }
@@ -228,8 +290,10 @@ function buildNavigation(pages, pageMap) {
   const navItems = [];
 
   // Process sections
-  for (const [sectionSlug, sectionPages] of sectionMap.entries()) {
-    const sectionRoot = sectionPages.find(p => p.path === `/${sectionSlug}/`);
+  for (const [sectionSlug, sectionPages] of sectionPagesMap.entries()) {
+    // Find the section root page (the page at the section path)
+    const sectionPath = Array.from(sectionMap.entries()).find(([path, slug]) => slug === sectionSlug)?.[0];
+    const sectionRoot = sectionPages.find(p => p.path === sectionPath);
     if (!sectionRoot) continue;
 
     const stripNode = (node) => ({

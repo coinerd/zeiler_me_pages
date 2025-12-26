@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 ---
 title: About me (old)
 ---
 How it all began
+=======
+# About me (old)
+
+How it all began - a long... long... time ago!
+>>>>>>> 00548fa021ab841d793d9dd04a39fce968f55a35
 
 My fascination for computers began in 1984 when my father bought his first PC - a Schneider Joyce. At first I only played the game Batman, but soon I discovered the word processing and database programs from my father.
 
@@ -9,9 +15,7 @@ _Play, boy!_
 
 ###
 
-[
-
-](about-me.html#h.p_ID_38)
+[](about-me.html#h.p_ID_38)
 
 It networks!
 
@@ -21,9 +25,7 @@ _I like having a machine called 'elvis' on the network because that way, I can s
 
 ###
 
-[
-
-](about-me.html#h.p_ID_44)
+[](about-me.html#h.p_ID_44)
 
 One year in Colombia
 
@@ -33,9 +35,7 @@ _And you think coffee is our biggest export?_
 
 ###
 
-[
-
-](about-me.html#h.p_ID_50)
+[](about-me.html#h.p_ID_50)
 
 Computational linguistics and Bioinformatics
 

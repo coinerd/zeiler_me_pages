@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 ---
 title: Artikel
 ---
 ##
+=======
+# Artikel
 
-[
+## 
+>>>>>>> 00548fa021ab841d793d9dd04a39fce968f55a35
 
-](artikel.html#h.p_ID_32)
+[](artikel.html#h.p_ID_32)
 
 Was ist das Web 2.0?
 
@@ -15,9 +19,7 @@ Die neue Version des Webs (2.0) bedeutet nicht, dass hier eine völlig neue Tech
 
 ##
 
-[
-
-](artikel.html#h.p_ID_38)
+[](artikel.html#h.p_ID_38)
 
 Agile Methoden in der Softwareentwicklung
 
@@ -29,9 +31,7 @@ Doch was bedeutet es ein Projekt agil umzusetzen?
 
 ##
 
-[
-
-](artikel.html#h.p_ID_46)
+[](artikel.html#h.p_ID_46)
 
 Auswirkungen von Ideologien der Open Source Lizenzen
 
