@@ -2,9 +2,12 @@ name: Deploy from EDIT Folder
 
 on:
   push:
-    branches: [main]
+    branches: [main, gh-pages]
     paths:
       - 'EDIT/**'
+      - 'frontend/package.json'
+      - 'frontend/package-lock.json'
+      - '.github/workflows/deploy-from-edit.yml'
   workflow_dispatch:
 
 permissions:
@@ -27,20 +30,21 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: frontend/package-lock.json
 
       - name: Install dependencies
         working-directory: ./frontend
-        run: npm ci
+        run: npm install
+
+      - name: Create .env file for build
+        working-directory: ./frontend
+        run: |
+          echo "SITE_URL=https://coinerd.github.io/zeiler_me_pages" >> .env
+          echo "BASE_PATH=/zeiler_me_pages" >> .env
+          echo "USE_EDIT_FOLDER=true" >> .env
+          echo "STRAPI_URL=https://dummy.strapi.com" >> .env
 
       - name: Build from EDIT folder
         working-directory: ./frontend
-        env:
-          SITE_URL: https://coinerd.github.io/zeiler_me_pages
-          BASE_PATH: /zeiler_me_pages
-          USE_EDIT_FOLDER: true
-          STRAPI_URL: https://dummy.strapi.com
         run: npm run build
 
       - name: Upload artifact
