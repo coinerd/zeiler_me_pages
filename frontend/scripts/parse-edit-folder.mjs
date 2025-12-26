@@ -128,6 +128,27 @@ function parseMarkdownFile(filePath, relativePath) {
       }
     }
   }
+  
+  // FALLBACK: If no images found, look in uploads folder
+  if (images.length === 0) {
+    const uploadsDir = path.join(repoRoot, 'uploads');
+    if (await fs.pathExists(uploadsDir)) {
+      const uploadFiles = await fs.readdir(uploadsDir);
+      
+      for (let i = 1; i <= 10; i++) {
+        for (const ext of imageExtensions) {
+          const imageName = `${baseName}-${i}${ext}`;
+          const imagePath = path.join(uploadsDir, imageName);
+          if (uploadFiles.includes(imageName)) {
+            images.push({
+              url: '/' + imageName,
+              alt: title,
+            });
+          }
+        }
+      }
+    }
+  }
 
   // Process image URLs to be absolute
   const processedImages = images.map(img => ({
