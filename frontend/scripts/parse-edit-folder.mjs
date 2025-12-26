@@ -132,8 +132,8 @@ function parseMarkdownFile(filePath, relativePath) {
   // FALLBACK: If no images found, look in uploads folder
   if (images.length === 0) {
     const uploadsDir = path.join(repoRoot, 'uploads');
-    if (await fs.pathExists(uploadsDir)) {
-      const uploadFiles = await fs.readdir(uploadsDir);
+    if (fs.existsSync(uploadsDir)) {
+      const uploadFiles = fs.readdirSync(uploadsDir);
       
       for (let i = 1; i <= 10; i++) {
         for (const ext of imageExtensions) {
