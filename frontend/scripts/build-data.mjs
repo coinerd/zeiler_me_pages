@@ -48,17 +48,17 @@ const projectRoot = path.resolve(scriptsDir, "..");
 const repoRoot = path.resolve(projectRoot, "..");
 
 const rootEnv = path.join(repoRoot, ".env");
-if (await fs.pathExists(rootEnv)) {
+if (fs.existsSync(rootEnv)) {
   dotenv.config({ path: rootEnv, override: false });
 }
 
 const cmsEnv = path.join(repoRoot, "cms", ".env");
-if (await fs.pathExists(cmsEnv)) {
+if (fs.existsSync(cmsEnv)) {
   dotenv.config({ path: cmsEnv, override: false });
 }
 
 const frontendEnv = path.join(projectRoot, ".env");
-if (await fs.pathExists(frontendEnv)) {
+if (fs.existsSync(frontendEnv)) {
   dotenv.config({ path: frontendEnv, override: false });
 }
 
