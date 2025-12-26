@@ -219,10 +219,11 @@ function detectSections(pages) {
     }
   });
 
-  // Also consider pages at depth 2 (e.g., /detlef/deutsch/) as potential sections
+  // Consider pages at depth 2 (e.g., /detlef/deutsch/) as potential sections
+  // BUT only if they are NOT already in sectionRoots (i.e., they have children)
   pages.forEach(page => {
     const pathParts = page.path.split('/').filter(p => p);
-    if (pathParts.length === 2) {
+    if (pathParts.length === 2 && !sectionRoots.has(page.path)) {
       sectionRoots.add(page.path);
     }
   });
