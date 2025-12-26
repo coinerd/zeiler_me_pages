@@ -55,13 +55,14 @@ const normalizePath = (value, fallback = null) => {
 // Recursively scan directory for markdown files
 async function scanDirectory(dir, basePath = "") {
   const files = [];
-  const entries = await fs.readdir(dir, { withFileTypes: true });
+  const entries = await fs.readdir(dir);
 
   for (const entry of entries) {
     const fullPath = path.join(dir, entry.name);
     const relativePath = path.join(basePath, entry.name);
 
-    if (entry.isDirectory()) {
+    const stat = await fs.stat(fullPath);
+    if (stat.isDirectory()) {
       const subFiles = await scanDirectory(fullPath, relativePath);
       files.push(...subFiles);
     } else if (entry.isFile() && entry.name.endsWith('.md')) {
