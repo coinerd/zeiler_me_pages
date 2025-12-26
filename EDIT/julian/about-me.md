@@ -436,7 +436,7 @@ Skip to navigation
 
 # About me (old)
 
-How it all began
+How it all began - a long... long... time ago!
 
 My fascination for computers began in 1984 when my father bought his first PC - a Schneider Joyce. At first I only played the game Batman, but soon I discovered the word processing and database programs from my father.
 
