@@ -1,0 +1,162 @@
+---
+import Layout from "../components/Layout.astro";
+import nav from "../data/nav.json";
+import { prefixPath } from "../lib/env.js";
+import BookIcon from "../components/icons/BookIcon.astro";
+import ClockIcon from "../components/icons/ClockIcon.astro";
+import VideoIcon from "../components/icons/VideoIcon.astro";
+import BuildingIcon from "../components/icons/BuildingIcon.astro";
+import CodeIcon from "../components/icons/CodeIcon.astro";
+import DocumentIcon from "../components/icons/DocumentIcon.astro";
+
+const sections = nav;
+const description = "Zeiler.me – Ein akademisches Wissensarchiv mit Beiträgen zu Geschichte, Deutsch, Medienpädagogik und Regionalgeschichte aus Heidelberg und Umgebung.";
+
+// Extract main categories from nav structure
+const mainCategories = [
+  {
+    id: "deutsch",
+    title: "Deutsch",
+    path: "/detlef/deutsch/",
+    description: "Sprachkunst und Textinterpretation",
+    icon: BookIcon,
+    color: "from-blue-500 to-blue-600",
+    itemCount: 12
+  },
+  {
+    id: "geschichte",
+    title: "Geschichte",
+    path: "/detlef/geschichte/",
+    description: "Historische Perspektiven und Quellen",
+    icon: ClockIcon,
+    color: "from-amber-500 to-amber-600",
+    itemCount: 40
+  },
+  {
+    id: "medien",
+    title: "Medien",
+    path: "/detlef/medien/",
+    description: "Medienkompetenz und Medienerziehung",
+    icon: VideoIcon,
+    color: "from-purple-500 to-purple-600",
+    itemCount: 15
+  },
+  {
+    id: "projekte",
+    title: "Projekte",
+    path: "/detlef/projekte/",
+    description: "Regionale Geschichte und Heimatforschung",
+    icon: BuildingIcon,
+    color: "from-emerald-500 to-emerald-600",
+    itemCount: 8
+  },
+  {
+    id: "techzap",
+    title: "Techzap",
+    path: "/julian/techzap/",
+    description: "Technologie, Design und Programmierung",
+    icon: CodeIcon,
+    color: "from-cyan-500 to-cyan-600",
+    itemCount: 6
+  },
+  {
+    id: "artikel",
+    title: "Artikel",
+    path: "/julian/artikel/",
+    description: "Veröffentlichte Artikel",
+    icon: DocumentIcon,
+    color: "from-rose-500 to-rose-600",
+    itemCount: 3
+  }
+];
+---
+
+<Layout title="Startseite" description={description} path="/" nav={sections}>
+  <!-- Hero Section -->
+  <header class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-ink via-ink/95 to-amber-dark/90 p-8 sm:p-12 lg:p-16 text-cream shadow-2xl">
+    <div class="relative z-10">
+      <h1 class="font-display text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl animate-fade-in">
+        zeiler.me
+      </h1>
+      <p class="mt-4 max-w-2xl text-lg leading-relaxed text-cream/90 sm:text-xl animate-fade-in-delayed">
+        Ein akademisches Wissensarchiv mit Beiträgen zu Geschichte, Deutsch, Medienpädagogik und Regionalgeschichte aus Heidelberg und Umgebung.
+      </p>
+    </div>
+    <!-- Decorative elements -->
+    <div class="absolute right-0 top-0 h-64 w-64 translate-x-1/2 -translate-y-1/2 opacity-10">
+      <svg viewBox="0 0 200 200" fill="currentColor">
+        <circle cx="100" cy="100" r="80" />
+      </svg>
+    </div>
+    <div class="absolute bottom-0 left-0 h-48 w-48 -translate-x-1/4 translate-y-1/4 opacity-10">
+      <svg viewBox="0 0 200 200" fill="currentColor">
+        <rect x="20" y="20" width="160" height="160" rx="20" />
+      </svg>
+    </div>
+  </header>
+
+  <!-- Categories Grid -->
+  <section class="mt-12 lg:mt-16">
+    <div class="mb-8 flex items-center gap-3">
+      <div class="h-1 flex-1 bg-gradient-to-r from-transparent via-amber to-transparent"></div>
+      <h2 class="font-display text-2xl font-semibold text-ink dark:text-cream">
+        Themenbereiche
+      </h2>
+      <div class="h-1 flex-1 bg-gradient-to-r from-transparent via-amber to-transparent"></div>
+    </div>
+
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {mainCategories.map((category, index) => (
+        <a
+          href={prefixPath(category.path)}
+          class={`group relative overflow-hidden rounded-xl border-2 border-transparent bg-gradient-to-br ${category.color} p-6 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:-translate-y-1 animate-stagger-${index + 1}`}
+        >
+          <!-- Icon -->
+          <div class="mb-4 flex h-16 w-16 items-center justify-center rounded-lg bg-white/20 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/30">
+            <category.icon />
+          </div>
+
+          <!-- Content -->
+          <h3 class="font-display text-xl font-bold">
+            {category.title}
+          </h3>
+          <p class="mt-2 text-sm leading-relaxed text-white/90">
+            {category.description}
+          </p>
+
+          <!-- Item count badge -->
+          <div class="mt-4 inline-flex items-center gap-2 rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur-sm">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+            </svg>
+            {category.itemCount}+ Beiträge
+          </div>
+
+          <!-- Hover overlay -->
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="mt-12 lg:mt-16">
+    <div class="rounded-xl bg-cream-dark p-8 text-center shadow-inner dark:bg-gray-800">
+      <h3 class="font-display text-xl font-semibold text-ink dark:text-cream">
+        Mehr entdecken
+      </h3>
+      <p class="mt-2 text-gray-600 dark:text-gray-400">
+        Tauchen Sie ein in unsere Sammlung von Wissen und Geschichte
+      </p>
+      <a
+        href={prefixPath("/detlef/projekte/")}
+        class="mt-4 inline-flex items-center gap-2 rounded-lg bg-amber px-6 py-3 font-medium text-cream-dark transition-all duration-200 hover:bg-amber-dark hover:shadow-lg"
+      >
+        <span>Projekte ansehen</span>
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
+    </div>
+  </section>
+</Layout>

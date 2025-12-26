@@ -1,0 +1,63 @@
+---
+import Layout from "../components/Layout.astro";
+import nav from "../data/nav.json";
+
+const title = "Seite nicht gefunden";
+const description = "Die von Ihnen gesuchte Seite existiert nicht oder wurde verschoben.";
+---
+
+<Layout title={title} description={description} path="/404/" nav={nav}>
+  <div class="flex flex-col items-center justify-center py-16 text-center">
+    <div class="mb-8">
+      <span class="text-8xl">📖</span>
+    </div>
+    <h1 class="mb-4 font-serif text-4xl font-bold text-neutral-900 dark:text-neutral-100">
+      {title}
+    </h1>
+    <p class="mb-8 max-w-md text-lg text-neutral-600 dark:text-neutral-400">
+      {description}
+    </p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <a
+        href="/"
+        class="inline-flex items-center gap-2 rounded-lg bg-primary-600 px-6 py-3 text-white transition-colors hover:bg-primary-700"
+      >
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        Zur Startseite
+      </a>
+      <a
+        href="#"
+        onclick="history.back(); return false;"
+        class="inline-flex items-center gap-2 rounded-lg border border-neutral-300 bg-white px-6 py-3 text-neutral-700 transition-colors hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-700"
+      >
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        Zurück
+      </a>
+    </div>
+
+    <!-- Search box suggestion -->
+    <div class="mt-12 w-full max-w-md">
+      <h2 class="mb-4 font-serif text-xl font-semibold text-neutral-900 dark:text-neutral-100">
+        Vielleicht suchen Sie nach...
+      </h2>
+      <ul class="space-y-2 text-left text-neutral-600 dark:text-neutral-400">
+        <li>
+          <a href="/" class="hover:text-primary-600 dark:hover:text-primary-400">Startseite</a>
+        </li>
+        <li>
+          <a href="/detlef/geschichte/" class="hover:text-primary-600 dark:hover:text-primary-400">Geschichte - Detlef Zeiler</a>
+        </li>
+        <li>
+          <a href="/detlef/deutsch/" class="hover:text-primary-600 dark:hover:text-primary-400">Deutsch - Detlef Zeiler</a>
+        </li>
+        <li>
+          <a href="/julian/artikel/" class="hover:text-primary-600 dark:hover:text-primary-400">Artikel - Julian Zeiler</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</Layout>

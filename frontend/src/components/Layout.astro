@@ -1,0 +1,283 @@
+---
+import Breadcrumbs from "./Breadcrumbs.astro";
+import NavigationIsland from "./navigation/NavigationIsland";
+import LoadingBar from "./LoadingBar";
+import { buildPageMeta } from "../lib/seo.js";
+import { prefixPath, env } from "../lib/env.js";
+import "../styles/tailwind.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  path?: string;
+  nav?: any[];
+  breadcrumbs?: any[];
+  image?: string;
+  publishedAt?: string;
+  updatedAt?: string;
+  author?: string;
+}
+
+const {
+  title,
+  description = "",
+  path = "",
+  nav = [],
+  breadcrumbs = [],
+  image,
+  publishedAt,
+  updatedAt,
+  author,
+} = Astro.props;
+
+// Helper function to count items recursively
+const countItems = (items: any[]): number => {
+  return items.reduce((acc, item) => {
+    return acc + 1 + (item.children ? countItems(item.children) : 0);
+  }, 0);
+};
+
+/**
+ * Extract and flatten navigation sections from the deeply nested nav.json structure
+ * The nav structure is: Weitere Inhalte → [Detlef/Julian Zeiler] → [Content Sections]
+ * This function extracts actual content sections to be displayed in the navigation menu
+ */
+const extractNavigationSections = (nav: any[]): any[] => {
+  const sections: any[] = [];
+  
+  // Find root "Weitere Inhalte" section
+  const weitereInhalte = nav.find((item: any) => item.id === "__other");
+  if (!weitereInhalte?.children) return sections;
+  
+  // Find main container (id: 399 - "IT & Medien, Geschichte, Deutsch")
+  const mainContainer = weitereInhalte.children.find((item: any) => item.id === 399);
+  if (!mainContainer?.children) return sections;
+  
+  // Extract sections from Detlef Zeiler and Julian Zeiler branches
+  const detlefSection = mainContainer.children.find((item: any) => item.id === 401); // Detlef Zeiler
+  const julianSection = mainContainer.children.find((item: any) => item.id === 402); // Julian Zeiler
+  
+  // Extract Detlef's content sections
+  if (detlefSection?.children) {
+    detlefSection.children.forEach((item: any) => {
+      // Skip non-section items like Impressum, Jeremia
+      if (["Impressum", "Jeremia"].includes(item.title)) return;
+      
+      sections.push({
+        id: item.id,
+        title: item.title,
+        path: item.path,
+        children: item.children || [],
+        summary: item.summary,
+      });
+    });
+  }
+  
+  // Extract Julian's content sections
+  if (julianSection?.children) {
+    julianSection.children.forEach((item: any) => {
+      // Skip "old" pages, keep only content sections
+      if (item.title.includes("(old)")) return;
+      
+      sections.push({
+        id: item.id,
+        title: item.title,
+        path: item.path,
+        children: item.children || [],
+        summary: item.summary,
+      });
+    });
+  }
+  
+  return sections;
+};
+
+// Define layouts for each section type
+const layouts: Record<string, "featured" | "standard" | "wide"> = {
+  "deutsch": "featured",
+  "geschichte": "standard",
+  "medien": "standard",
+  "projekte": "featured",
+  "techzap": "standard",
+  "artikel": "standard",
+  "about me (old)": "wide",
+  "contact / impressum": "wide",
+  "work (old)": "wide",
+};
+
+// Define intros for each section
+const intros: Record<string, string> = {
+  "deutsch": "Sprachkunst und Textinterpretation",
+  "geschichte": "Historische Perspektiven und Quellen",
+  "medien": "Medienkompetenz und Medienerziehung",
+  "projekte": "Regionale Geschichte und Heimatforschung",
+  "techzap": "Technologie, Design und Programmierung",
+  "artikel": "Veröffentlichte Artikel",
+  "about me (old)": "Über Julian Zeiler",
+  "contact / impressum": "Kontakt und Impressum",
+  "work (old)": "Projekte und Arbeiten",
+};
+
+// Extract and enhance navigation sections
+const navigationSections = extractNavigationSections(nav);
+
+const enhancedNav = navigationSections.map((section, index) => {
+  const sectionKey = section.title.toLowerCase();
+  
+  return {
+    ...section,
+    layout: layouts[sectionKey] || "standard",
+    intro: intros[sectionKey],
+    children: section.children.map((item: any) => ({
+      ...item,
+      count: item.children ? countItems(item.children) : undefined,
+      description: item.summary || undefined,
+    })),
+  };
+});
+
+const meta = buildPageMeta({
+  title,
+  description,
+  path,
+  image,
+  publishedAt,
+  updatedAt,
+  author,
+});
+---
+
+<html lang="de" class="scroll-pt-20 theme-transition" data-base-path={env.basePath}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1a2332" />
+
+    <!-- Primary Meta Tags -->
+    <title>{meta.title}</title>
+    <meta name="title" content={meta.title} />
+    <meta name="description" content={meta.description} />
+    <meta name="author" content={author || "Detlef und Julian Zeiler"} />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href={meta.canonical} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content={meta.openGraph.type} />
+    <meta property="og:url" content={meta.openGraph.url} />
+    <meta property="og:title" content={meta.openGraph.title} />
+    <meta property="og:description" content={meta.openGraph.description} />
+    <meta property="og:site_name" content={meta.openGraph.siteName} />
+    <meta property="og:locale" content="de_DE" />
+    {meta.openGraph.image && <meta property="og:image" content={meta.openGraph.image} />}
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={meta.openGraph.url} />
+    <meta name="twitter:title" content={meta.openGraph.title} />
+    <meta name="twitter:description" content={meta.openGraph.description} />
+    {meta.openGraph.image && <meta name="twitter:image" content={meta.openGraph.image} />}
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json" set:html={JSON.stringify(meta.schema)} />
+
+    <!-- Fonts preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href={prefixPath("/favicon.svg")} />
+  </head>
+
+  <body class="bg-cream text-ink antialiased">
+    <!-- Loading indicator for navigation feedback -->
+    <LoadingBar client:load />
+    
+    <!-- Skip link for accessibility -->
+    <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+    <!-- Header with navigation -->
+    <header class="sticky top-0 z-40 w-full header-backdrop animate-slide-down">
+      <div class="section-container">
+        <div class="flex h-18 items-center justify-between gap-4">
+          <!-- Logo / Site title -->
+          <a
+            href={prefixPath("/")}
+            class="flex items-center gap-3 group"
+          >
+            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-amber/10 text-amber-dark transition-colors group-hover:bg-amber group-hover:text-cream">
+              <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-display text-lg font-bold text-ink transition-colors group-hover:text-amber dark:text-cream dark:group-hover:text-amber">
+                zeiler.me
+              </span>
+              <span class="text-xs text-gray-500 dark:text-gray-400">
+                Wissensarchiv
+              </span>
+            </div>
+          </a>
+
+          <!-- Navigation System -->
+          <NavigationIsland nav={enhancedNav} client:idle />
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content area -->
+    <div class="section-container py-8 md:py-12 lg:py-16">
+      <!-- Main content -->
+      <main id="main" class="min-w-0 space-y-8 lg:space-y-10 animate-stagger-2">
+        <!-- Breadcrumbs -->
+        {breadcrumbs && breadcrumbs.length > 0 && (
+          <Breadcrumbs items={breadcrumbs} />
+        )}
+
+        <!-- Page header -->
+        <header class="space-y-4">
+          <h1 class="font-display text-3xl font-bold text-ink leading-tight sm:text-4xl lg:text-5xl dark:text-cream">
+            {title}
+          </h1>
+          {description && (
+            <p class="text-lg text-gray-600 leading-relaxed dark:text-gray-400">
+              {description}
+            </p>
+          )}
+          {publishedAt && (
+            <div class="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-500">
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              <time datetime={publishedAt}>
+                Veröffentlicht: {new Date(publishedAt).toLocaleDateString("de-DE", { year: "numeric", month: "long", day: "numeric" })}
+              </time>
+            </div>
+          )}
+        </header>
+
+        <!-- Content divider -->
+        <div class="section-divider"></div>
+
+        <!-- Page content -->
+        <article class="prose-content max-w-none">
+          <slot />
+        </article>
+
+        <!-- Footer within article for scroll position -->
+        <footer class="mt-16 border-t border-gray-200 pt-8 text-sm text-gray-500 dark:border-gray-700">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <p>© 1996-{new Date().getFullYear()} Detlef und Julian Zeiler</p>
+            <div class="flex items-center gap-4">
+              <a href={prefixPath("/detlef/impressum/")} class="hover:text-amber focus:text-amber">Impressum</a>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

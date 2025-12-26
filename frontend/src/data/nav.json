@@ -1,0 +1,544 @@
+[
+  {
+    "id": 170,
+    "title": "About me (old)",
+    "slug": "about-me",
+    "path": "/julian/about-me/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": []
+  },
+  {
+    "id": 174,
+    "title": "Artikel",
+    "slug": "artikel",
+    "path": "/julian/artikel/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": [
+      {
+        "id": 171,
+        "title": "Agile Methoden in der Softwareentwicklung",
+        "path": "/julian/artikel/agile-methoden-in-der-softwareentwicklung/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 172,
+        "title": "Auswirkungen von Ideologien der Open Source Lizenzen",
+        "path": "/julian/artikel/auswirkungen-von-ideologien-der-open-source-lizenzen/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 173,
+        "title": "Was ist das Web 2.0?",
+        "path": "/julian/artikel/was-ist-das-web-20/",
+        "summary": "",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "title": "Contact / Impressum",
+    "slug": "contact",
+    "path": "/julian/contact/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": []
+  },
+  {
+    "id": 24,
+    "title": "Deutsch",
+    "slug": "deutsch",
+    "path": "/detlef/deutsch/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": [
+      {
+        "id": 10,
+        "title": "&quot;In einer kleinen Stadt&quot;",
+        "path": "/detlef/deutsch/needful-things---in-einer-kleinen-stadt/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 1,
+        "title": "Erörterung",
+        "path": "/detlef/deutsch/errterung/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 5,
+        "title": "Fremdenfeindlichkeit",
+        "path": "/detlef/deutsch/fremdenfeindlichkeit/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 6,
+        "title": "Homo Faber",
+        "path": "/detlef/deutsch/homo-faber/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 7,
+        "title": "Nayirah",
+        "path": "/detlef/deutsch/nayirah/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 11,
+        "title": "Texterörterung",
+        "path": "/detlef/deutsch/texterrterung/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 19,
+        "title": "Textinterpretation",
+        "path": "/detlef/deutsch/textinterpretation-1/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 20,
+        "title": "Textinterpretation (Beispiele)",
+        "path": "/detlef/deutsch/textinterpretation/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 3,
+        "title": "Themen",
+        "path": "/detlef/deutsch/essay-themen/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 21,
+        "title": "Versuch einer Beschreibung menschlicher Moral",
+        "path": "/detlef/deutsch/versuch-einer-beschreibung-menschlicher-moral/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 22,
+        "title": "Versuch einer kurzen Beschreibung einer menschlichen Moral",
+        "path": "/detlef/deutsch/versuch-einer-kurzen-beschreibung-einer-menschlichen-moral/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 23,
+        "title": "Vom Text zum Schaubild",
+        "path": "/detlef/deutsch/vom-text-zum-schaubild/",
+        "summary": "",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Geschichte",
+    "slug": "geschichte",
+    "path": "/detlef/geschichte/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": [
+      {
+        "id": 56,
+        "title": "1980)",
+        "path": "/detlef/geschichte/thalmann/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 25,
+        "title": "Alexander von Humboldts Südamerikareise",
+        "path": "/detlef/geschichte/alexander-von-humboldts-sdamerikareise/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 28,
+        "title": "Alexis de Tocqueville über die plötzliche Grausamkeit in einer unglücklichen Zeit",
+        "path": "/detlef/geschichte/ber-die-pltzliche-grausamkeit-in-einer-unglcklichen-zeit/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 26,
+        "title": "Alexis de Tocqueville über Grausamkeit in einer unglücklichen Zeit",
+        "path": "/detlef/geschichte/alexis-de-tocqueville-ber-grausamkeit-in-einer-unglcklichen-zeit/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 44,
+        "title": "Angry Young Men",
+        "path": "/detlef/geschichte/hooligans---angry-young-men/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 29,
+        "title": "Berichte aus einer deutschen Diktatur",
+        "path": "/detlef/geschichte/berichte-aus-einer-deutschen-diktatur/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 30,
+        "title": "Berthold von Rohrbach",
+        "path": "/detlef/geschichte/berthold-von-rohrbach/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 31,
+        "title": "Besuch in Simferopol 2018",
+        "path": "/detlef/geschichte/besuch-in-simferopol-2018/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 33,
+        "title": "Ceausescu",
+        "path": "/detlef/geschichte/ceausescu/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 34,
+        "title": "Das Eiserne Kreuz (Heiner Müller)",
+        "path": "/detlef/geschichte/das-eiserne-kreuz/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 35,
+        "title": "Die &quot;Mittelschicht&quot; (Diskussionsthemen)",
+        "path": "/detlef/geschichte/die-mittelschicht-diskussionsthemen/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 38,
+        "title": "Faschismus als Massenbewegung",
+        "path": "/detlef/geschichte/faschismus-als-massenbewegung/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 37,
+        "title": "Faschismus im 21. Jahrhundert?",
+        "path": "/detlef/geschichte/faschismus-als-massenbewegung-2/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 39,
+        "title": "Gerüchte",
+        "path": "/detlef/geschichte/gerchte/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 40,
+        "title": "Geschichte des Neckars und des Philosophenwegs (Ludwig Merz/Otto Jäger)",
+        "path": "/detlef/geschichte/geschichte-des-neckars-und-des-philosophenwegs-ludwig-merzotto-jger/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 43,
+        "title": "Grenzen",
+        "path": "/detlef/geschichte/grenzen/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 41,
+        "title": "Grenzen II",
+        "path": "/detlef/geschichte/grenzen-ii/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 42,
+        "title": "Grenzen III",
+        "path": "/detlef/geschichte/grenzen-iii/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 45,
+        "title": "Integration",
+        "path": "/detlef/geschichte/integration/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 46,
+        "title": "Jeremia",
+        "path": "/detlef/geschichte/jeremia/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 48,
+        "title": "Kontrollsysteme",
+        "path": "/detlef/geschichte/kontrollsysteme/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 47,
+        "title": "Künstliche Feindschaften",
+        "path": "/detlef/geschichte/knstliche-feindschaften/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 49,
+        "title": "Mein  Onkel Emil",
+        "path": "/detlef/geschichte/mein--onkel-emil/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 51,
+        "title": "Mein Großvater Rudolf Zeiler",
+        "path": "/detlef/geschichte/mein-grovater-rudolf-zeiler/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 57,
+        "title": "Menschenwürde und Rechtsstaat",
+        "path": "/detlef/geschichte/was-mich-betrifft/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 52,
+        "title": "Modellskizze einer menschlichen Moral",
+        "path": "/detlef/geschichte/modellskizze-einer-menschlichen-moral/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 53,
+        "title": "Nationen",
+        "path": "/detlef/geschichte/nationen/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 55,
+        "title": "Sind wir (nur) Tiere?",
+        "path": "/detlef/geschichte/sind-wir-nur-tiere/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 54,
+        "title": "tödliche Waffen",
+        "path": "/detlef/geschichte/nicht-tdliche-waffen/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 27,
+        "title": "Über die Grausamkeit",
+        "path": "/detlef/geschichte/ber-die-grausamkeit/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 58,
+        "title": "Zeit der Intrigen",
+        "path": "/detlef/geschichte/zeit-der-intrigen/",
+        "summary": "",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Impressum",
+    "slug": "impressum",
+    "path": "/detlef/impressum/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": []
+  },
+  {
+    "id": 169,
+    "title": "IT &amp; Medien, Geschichte, Deutsch",
+    "slug": "index",
+    "path": "/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": []
+  },
+  {
+    "id": 61,
+    "title": "Jeremia",
+    "slug": "jeremia",
+    "path": "/detlef/jeremia/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": []
+  },
+  {
+    "id": 79,
+    "title": "Medien",
+    "slug": "medien",
+    "path": "/detlef/medien/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": [
+      {
+        "id": 62,
+        "title": "Gerüchte – Rumores (Drehbuch und Storyboard)",
+        "path": "/detlef/medien/geruechte-rumores-drehbuch/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 78,
+        "title": "Medienerziehung",
+        "path": "/detlef/medien/medienerziehung/",
+        "summary": "",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Projekte",
+    "slug": "projekte",
+    "path": "/detlef/projekte/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": [
+      {
+        "id": 146,
+        "title": "Der Heiligenberg bei Heidelberg",
+        "path": "/detlef/projekte/heiligenberg/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 93,
+        "title": "Die Elsenz und der Kraichgau",
+        "path": "/detlef/projekte/die-elsenz-und-der-kraichgau/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 167,
+        "title": "Die Insel Providencia",
+        "path": "/detlef/projekte/old-providence-die-insel-providencia/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 133,
+        "title": "Heidelberg im Mittelalter",
+        "path": "/detlef/projekte/heidelberg-im-mittelalter/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 141,
+        "title": "Heidelberger Schulgeschichten",
+        "path": "/detlef/projekte/heidelberger-schulgeschichten/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 155,
+        "title": "Neuenheim ist halb Europa",
+        "path": "/detlef/projekte/neuenheim/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 100,
+        "title": "Strafvollzug",
+        "path": "/detlef/projekte/dritte-gewalt-strafvollzug/",
+        "summary": "",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "title": "Techzap",
+    "slug": "techzap",
+    "path": "/julian/techzap/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": [
+      {
+        "id": 178,
+        "title": "Design",
+        "path": "/julian/techzap/design/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 183,
+        "title": "Programmierung",
+        "path": "/julian/techzap/programmierung/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 189,
+        "title": "Server",
+        "path": "/julian/techzap/server/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 192,
+        "title": "Technik",
+        "path": "/julian/techzap/technik/",
+        "summary": "",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "title": "Work (old)",
+    "slug": "work",
+    "path": "/julian/work/",
+    "order": 9007199254740991,
+    "intro": "",
+    "children": [
+      {
+        "id": 194,
+        "title": "Projects",
+        "path": "/julian/work/projects/",
+        "summary": "",
+        "children": []
+      },
+      {
+        "id": 195,
+        "title": "Selfmade",
+        "path": "/julian/work/selfmade/",
+        "summary": "",
+        "children": []
+      }
+    ]
+  }
+]

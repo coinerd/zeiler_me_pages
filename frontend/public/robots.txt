@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://coinerd.github.io/zeiler_me_pages/sitemap-index.xml

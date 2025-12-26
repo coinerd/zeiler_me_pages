@@ -1,0 +1,33 @@
+---
+import { prefixPath } from "../lib/env.js";
+
+interface BreadcrumbItem {
+  title: string;
+  path: string;
+}
+
+interface Props {
+  items?: BreadcrumbItem[];
+}
+
+const { items = [] } = Astro.props;
+---
+
+{items.length > 0 && (
+  <nav aria-label="Brotkrumen" class="breadcrumbs">
+    <ol class="flex flex-wrap items-center gap-2">
+      {items.map((item, index) => (
+        <li class="breadcrumb-item">
+          {index > 0 && <span class="breadcrumb-separator" aria-hidden="true">›</span>}
+          {index === items.length - 1 ? (
+            <span class="breadcrumb-current">{item.title}</span>
+          ) : (
+            <a href={prefixPath(item.path)} class="breadcrumb-link">
+              {item.title}
+            </a>
+          )}
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}

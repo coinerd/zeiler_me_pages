@@ -1,0 +1,82 @@
+---
+import Layout from "../components/Layout.astro";
+import nav from "../data/nav.json";
+import pages from "../data/pages.json";
+import { renderMarkdown, mediaUrl } from "../lib/markdown.js";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  return pages.map((page) => ({
+    params: { slug: page.path.slice(1, -1) },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+
+if (!page) {
+  throw new Error("Page data missing");
+}
+
+// Avoid repeating title and summary if they are at the start of the body
+let bodyToRender = page.body || "";
+
+// Remove repeated title (h1) if it matches page.title
+const escapedTitle = page.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const titlePattern = new RegExp(`^#\\s*${escapedTitle}\\s*(\\n|$)`, 'i');
+if (titlePattern.test(bodyToRender)) {
+  bodyToRender = bodyToRender.replace(titlePattern, "").trim();
+}
+
+// Remove repeated summary if it's at the start
+if (page.summary) {
+  const cleanSummary = page.summary.trim();
+  if (bodyToRender.startsWith(cleanSummary)) {
+    bodyToRender = bodyToRender.slice(cleanSummary.length).trim();
+  }
+}
+
+// Final cleanup of leading artifacts (empty headers, extra newlines)
+bodyToRender = bodyToRender.replace(/^#+\s*\n+/, "").trim();
+
+const html = await renderMarkdown(bodyToRender);
+const breadcrumbs = page.breadcrumbs || [];
+
+// Process images - ensure URLs are absolute
+const images = Array.isArray(page.images) ? page.images.map((img) => ({
+  ...img,
+  url: img.url ? mediaUrl(img.url) : null,
+})).filter((img) => img.url) : [];
+---
+
+<Layout
+  title={page.title}
+  description={page.summary}
+  path={page.path}
+  nav={nav}
+  breadcrumbs={breadcrumbs}
+  publishedAt={page.publishedAt}
+>
+  {images.length > 0 && (
+    <div class="my-8 space-y-4">
+      {images.map((img, index) => (
+        <figure key={index} class="image-with-metadata">
+          <img
+            src={img.url}
+            alt={img.alt || page.title}
+            class="w-full h-auto rounded-lg shadow-md"
+            loading="lazy"
+          />
+          {(img.caption || img.alt) && (
+            <figcaption class="text-sm text-neutral-500 dark:text-neutral-400 mt-2 text-center">
+              {img.caption || img.alt}
+            </figcaption>
+          )}
+        </figure>
+      ))}
+    </div>
+  )}
+
+  <div class="prose prose-neutral dark:prose-invert max-w-none" set:html={html}></div>
+</Layout>
