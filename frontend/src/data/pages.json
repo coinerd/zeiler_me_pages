@@ -160,7 +160,12 @@
     "path": "/detlef/deutsch/needful-things---in-einer-kleinen-stadt/in-einer-kleinen-stadt/in-einer-kleinen-stadt/",
     "summary": "",
     "body": "# In einer kleinen Stadt\n",
-    "images": [],
+    "images": [
+      {
+        "url": "/zeiler_me_pages/detlef/deutsch/needful-things---in-einer-kleinen-stadt/in-einer-kleinen-stadt/in-einer-kleinen-stadt-1.jpg",
+        "alt": "In einer kleinen Stadt"
+      }
+    ],
     "publishedAt": null,
     "breadcrumbs": [
       {
