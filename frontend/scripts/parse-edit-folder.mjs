@@ -4,12 +4,20 @@ import path from "path";
 import { fileURLToPath } from "url";
 import fs from "fs-extra";
 import matter from "gray-matter";
+import dotenv from "dotenv";
 
 const __filename = fileURLToPath(import.meta.url);
 const scriptsDir = path.dirname(__filename);
 const projectRoot = path.resolve(scriptsDir, "..");
 const repoRoot = path.resolve(projectRoot, "..");
 
+// Load environment variables
+const frontendEnv = path.join(projectRoot, ".env");
+if (await fs.pathExists(frontendEnv)) {
+  dotenv.config({ path: frontendEnv, override: false });
+}
+
+const basePath = process.env.BASE_PATH || '';
 const editFolder = path.join(repoRoot, "EDIT");
 
 // Helper to clean titles (same as in build-data.mjs)
@@ -124,7 +132,7 @@ function parseMarkdownFile(filePath, relativePath) {
   // Process image URLs to be absolute
   const processedImages = images.map(img => ({
     ...img,
-    url: img.url ? (img.url.startsWith('/') ? img.url : '/' + img.url) : null,
+    url: img.url ? (img.url.startsWith('/') ? (basePath + img.url) : (basePath + '/' + img.url)) : null,
   })).filter(img => img.url);
 
   return {
