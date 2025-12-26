@@ -6,7 +6,7 @@ How it all began
 =======
 # About me (old)
 
-How it all began - a long... long... time ago!
+How it all began - a long... loong... time ago!
 >>>>>>> 00548fa021ab841d793d9dd04a39fce968f55a35
 
 My fascination for computers began in 1984 when my father bought his first PC - a Schneider Joyce. At first I only played the game Batman, but soon I discovered the word processing and database programs from my father.
