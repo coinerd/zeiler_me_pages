@@ -8,7 +8,7 @@ images:
 
 Die Insel Providencia
 
-Copyright © Detlef Zeiler
+Copyright © by Detlef Zeiler
 
 Providencia ist eine kleine Insel in der Karibik, etwa 7 KM lang und 4 KM breit, auf der knapp 4000 Menschen leben. Sie liegt etwa 90 KM nördlich der etwas größeren und bekannteren Ferieninsel San Andres und ist nur von dieser aus zu erreichen. Von der Lage her könnte sie eigentlich zu Mittelamerika gehören, denn sie liegt näher an Nicaragua, Costa Rica oder Panama als an Kolumbien. Ich bin zwischen 1997 und 1999 mehrmals dorthin geflogen, um tauchen zu lernen und die Ruhe zu genießen, die man in anderen Ferienorten kaum noch findet.
 
