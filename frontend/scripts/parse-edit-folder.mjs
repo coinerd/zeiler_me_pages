@@ -111,70 +111,75 @@ function parseMarkdownFile(filePath, relativePath) {
     }
   }
 
-  // Extract images from frontmatter or find in same directory
-  const images = data.images || [];
+  // Calculate directory of the markdown file relative to EDIT folder
+  // This is CRITICAL for correct image path calculation
+  const fileDirRelative = path.dirname(relativePath).replace(/\\/g, '/');
+  
   const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
   
-  if (images.length === 0) {
-    // For index.md files, check if there's a subdirectory with images
-    if (slug === 'index') {
-      const fileDir = path.dirname(filePath);
-      const subDirPath = path.join(fileDir, path.basename(fileDir));
-      if (fs.existsSync(subDirPath) && fs.statSync(subDirPath).isDirectory()) {
-        const subDirEntries = fs.readdirSync(subDirPath);
-        const subDirName = path.basename(subDirPath);
-        for (let i = 1; i <= 10; i++) {
-          for (const ext of imageExtensions) {
-            const imageName = `${subDirName}-${i}${ext}`;
-            if (subDirEntries.includes(imageName)) {
-              // Use urlPath for index.md files (has correct trailing slash)
-              const relativeImagePath = path.join(path.dirname(urlPath), subDirName, imageName).replace(/\\/g, '/');
-              images.push({
-                url: '/' + relativeImagePath,
-                alt: title,
-              });
-            }
+  // DISCOVER IMAGES based on actual file structure
+  // This approach is more reliable than trusting frontmatter
+  const discoveredImages = [];
+  
+  // For index.md files, check if there's a subdirectory with images
+  if (slug === 'index') {
+    const fileDir = path.dirname(filePath);
+    const subDirPath = path.join(fileDir, path.basename(fileDir));
+    if (fs.existsSync(subDirPath) && fs.statSync(subDirPath).isDirectory()) {
+      const subDirEntries = fs.readdirSync(subDirPath);
+      const subDirName = path.basename(subDirPath);
+      for (let i = 1; i <= 10; i++) {
+        for (const ext of imageExtensions) {
+          const imageName = `${subDirName}-${i}${ext}`;
+          if (subDirEntries.includes(imageName)) {
+            // Calculate path relative to markdown file's directory
+            const relativeImagePath = path.join(fileDirRelative, subDirName, imageName).replace(/\\/g, '/');
+            discoveredImages.push({
+              url: '/' + relativeImagePath,
+              alt: title,
+            });
+          }
+        }
+      }
+    }
+  } else {
+    // For non-index.md files, check for images in same directory first
+    const fileDir = path.normalize(path.dirname(filePath));
+    const baseName = slug;
+    
+    // First, check if there's a subdirectory with the same name as the markdown file
+    const subDirPath = path.join(fileDir, baseName);
+    
+    console.log(`DEBUG: Checking for subdirectory: ${subDirPath}, exists: ${fs.existsSync(subDirPath)}`);
+    
+    if (fs.existsSync(subDirPath) && fs.statSync(subDirPath).isDirectory()) {
+      const subDirEntries = fs.readdirSync(subDirPath);
+      for (let i = 1; i <= 10; i++) {
+        for (const ext of imageExtensions) {
+          const imageName = `${baseName}-${i}${ext}`;
+          if (subDirEntries.includes(imageName)) {
+            // Calculate path relative to markdown file's directory
+            const relativeImagePath = path.join(fileDirRelative, baseName, imageName).replace(/\\/g, '/');
+            discoveredImages.push({
+              url: '/' + relativeImagePath,
+              alt: title,
+            });
           }
         }
       }
     } else {
-      // First, check if there's a subdirectory with the same name as the markdown file
-      const fileDir = path.normalize(path.dirname(filePath)); // Normalize path to remove line endings
-      const baseName = slug;
-      const subDirPath = path.join(fileDir, baseName, '/');
-      
-      console.log(`DEBUG: Checking for subdirectory: ${subDirPath}, exists: ${fs.existsSync(subDirPath)}`);
-      
-      // Check if subdirectory exists and has images
-      if (fs.existsSync(subDirPath) && fs.statSync(subDirPath).isDirectory()) {
-        const subDirEntries = fs.readdirSync(subDirPath);
-        for (let i = 1; i <= 10; i++) {
-          for (const ext of imageExtensions) {
-            const imageName = `${baseName}-${i}${ext}`;
-            if (subDirEntries.includes(imageName)) {
-              // Use urlPath for subdirectory images (has correct trailing slash)
-              const relativeImagePath = path.join(path.dirname(urlPath), baseName, imageName).replace(/\\/g, '/');
-              images.push({
-                url: '/' + relativeImagePath,
-                alt: title,
-              });
-            }
-          }
-        }
-      } else {
-        // Fallback: Try to find images in the same directory
-        for (let i = 1; i <= 10; i++) {
-          for (const ext of imageExtensions) {
-            const imageName = `${baseName}-${i}${ext}`;
-            const imagePath = path.join(fileDir, imageName);
-            if (fs.existsSync(imagePath)) {
-              // Use urlPath for same-directory images (has correct trailing slash)
-              const relativeImagePath = path.join(path.dirname(urlPath), imageName).replace(/\\/g, '/');
-              images.push({
-                url: '/' + relativeImagePath,
-                alt: title,
-              });
-            }
+      // Fallback: Try to find images in the same directory as the markdown file
+      for (let i = 1; i <= 10; i++) {
+        for (const ext of imageExtensions) {
+          const imageName = `${baseName}-${i}${ext}`;
+          const imagePath = path.join(fileDir, imageName);
+          if (fs.existsSync(imagePath)) {
+            // Calculate path relative to markdown file's directory
+            const relativeImagePath = path.join(fileDirRelative, imageName).replace(/\\/g, '/');
+            discoveredImages.push({
+              url: '/' + relativeImagePath,
+              alt: title,
+            });
           }
         }
       }
@@ -183,7 +188,7 @@ function parseMarkdownFile(filePath, relativePath) {
   
   // If no images found, try to find images named after the markdown file
   // (e.g., mein-grovater-rudolf-zeiler-1.jpg for mein-grovater-rudolf-zeiler.md)
-  if (images.length === 0) {
+  if (discoveredImages.length === 0) {
     const fileDir = path.dirname(filePath);
     const baseName = slug;
     
@@ -192,9 +197,9 @@ function parseMarkdownFile(filePath, relativePath) {
         const imageName = `${baseName}-${i}${ext}`;
         const imagePath = path.join(fileDir, imageName);
         if (fs.existsSync(imagePath)) {
-          // Use fileDir to construct relative path from EDIT folder
-          const relativeImagePath = path.relative(editFolder, imagePath).replace(/\\/g, '/');
-          images.push({
+          // Calculate path relative to markdown file's directory
+          const relativeImagePath = path.join(fileDirRelative, imageName).replace(/\\/g, '/');
+          discoveredImages.push({
             url: '/' + relativeImagePath,
             alt: title,
           });
@@ -204,7 +209,7 @@ function parseMarkdownFile(filePath, relativePath) {
   }
   
   // FALLBACK: If no images found, look in uploads folder
-  if (images.length === 0) {
+  if (discoveredImages.length === 0) {
     const uploadsDir = path.join(repoRoot, 'uploads');
     if (fs.existsSync(uploadsDir)) {
       const uploadFiles = fs.readdirSync(uploadsDir);
@@ -215,17 +220,21 @@ function parseMarkdownFile(filePath, relativePath) {
           const imageName = `${baseName}-${i}${ext}`;
           const imagePath = path.join(uploadsDir, imageName);
           if (uploadFiles.some(file => file.name === imageName)) {
-            images.push({
+            discoveredImages.push({
               url: '/' + imageName,
               alt: title,
             });
           }
         }
+      }
     }
   }
-  }
+  
+  // Use discovered images if any found, otherwise fall back to frontmatter
+  // This ensures we prioritize actual file structure over potentially incorrect frontmatter
+  const images = discoveredImages.length > 0 ? discoveredImages : (data.images || []);
 
-  // Process image URLs to be absolute
+  // Process image URLs to be absolute (add BASE_PATH prefix)
   console.log(`DEBUG: Processing images for ${normalizedRelativePath}:`, JSON.stringify(images, null, 2));
   const processedImages = images.map(img => {
     const finalUrl = img.url ? (img.url.startsWith('/') ? (basePath + img.url) : (basePath + '/' + img.url)) : null;
