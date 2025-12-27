@@ -43,6 +43,62 @@ const replaceOldLinks = (body) => {
     .replace(/\.html/g, '/');
 };
 
+// Helper to fix relative links based on file location vs deployed location
+// This is CRITICAL for pages where the markdown file is in a different location
+// than where the page is deployed
+const fixRelativeLinks = (body, relativePath, urlPath) => {
+  if (!body || typeof body !== "string") return body;
+  
+  // Calculate the depth difference between markdown file location and deployed URL
+  // relativePath: path from EDIT folder to .md file (e.g., "detlef/deutsch/textinterpretation.md")
+  // urlPath: deployed URL path (e.g., "/detlef/deutsch/textinterpretation/")
+  
+  const mdDir = path.dirname(relativePath).replace(/\\/g, '/'); // "detlef/deutsch"
+  const deployedDir = urlPath.slice(0, -1).replace(/\\/g, '/'); // "/detlef/deutsch/textinterpretation"
+  
+  console.log(`\n=== RELATIVE LINK FIX ===`);
+  console.log(`Markdown file directory: ${mdDir}`);
+  console.log(`Deployed URL directory: ${deployedDir}`);
+  
+  // Check if the deployed directory is deeper than the markdown file directory
+  // This happens when a .md file like "textinterpretation.md" is deployed as "/detlef/deutsch/textinterpretation/"
+  const mdDepth = mdDir.split('/').filter(p => p).length;
+  const deployedDepth = deployedDir.split('/').filter(p => p).length;
+  
+  console.log(`Markdown depth: ${mdDepth}, Deployed depth: ${deployedDepth}`);
+  
+  if (deployedDepth > mdDepth) {
+    const depthDiff = deployedDepth - mdDepth;
+    console.log(`Depth difference: ${depthDiff} - need to add ${depthDiff} "../" prefix to relative links`);
+    
+    // Fix relative links that don't start with / or http
+    // Match markdown links: [text](path) or <a href="path">
+    const fixedBody = body.replace(
+      /(\[[^\]]+\]\(|<a\s+href=")(?!\/|https?:|mailto:|#)([^")\s>]+)(["\)])/g,
+      (match, prefix, linkPath, suffix) => {
+        // Don't modify if it already starts with ../
+        if (linkPath.startsWith('../')) {
+          return match;
+        }
+        
+        // Add the required number of ../ prefixes
+        const goUp = '../'.repeat(depthDiff);
+        const newLinkPath = goUp + linkPath;
+        
+        console.log(`  Fixed relative link: ${linkPath} -> ${newLinkPath}`);
+        return prefix + newLinkPath + suffix;
+      }
+    );
+    
+    console.log(`=== END RELATIVE LINK FIX ===\n`);
+    return fixedBody;
+  }
+  
+  console.log(`No depth difference detected, no relative link fixes needed`);
+  console.log(`=== END RELATIVE LINK FIX ===\n`);
+  return body;
+};
+
 // Normalize path helper
 const normalizePath = (value, fallback = null) => {
   if (!value || typeof value !== "string") return fallback;
@@ -251,12 +307,15 @@ function parseMarkdownFile(filePath, relativePath) {
   console.log(`Final processed images:`, JSON.stringify(processedImages, null, 2));
   console.log(`=== END DIAGNOSTIC LOG ===\n`);
 
+  // Apply relative link fixes before returning
+  const fixedBody = fixRelativeLinks(replaceOldLinks(body), normalizedRelativePath, urlPath);
+  
   return {
     title: cleanTitle(title),
     slug,
     path: urlPath,
     summary: data.summary || '',
-    body: replaceOldLinks(body),
+    body: fixedBody,
     images: processedImages,
     publishedAt: data.publishedAt || null,
     order: data.order !== undefined ? Number(data.order) : Number.MAX_SAFE_INTEGER,
