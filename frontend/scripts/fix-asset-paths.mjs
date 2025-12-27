@@ -45,7 +45,7 @@ function fixAssetPathsInFile(filePath) {
     let modified = false;
 
     // Fix component-url attributes (only if not already prefixed)
-    const componentUrlRegex = new RegExp(`component-url="\\/(?!${normalizedBasePath}/)assets/`, 'g');
+    const componentUrlRegex = new RegExp(`component-url="\\/(?!${normalizedBasePath}|${normalizedBasePath}/)assets/`, 'g');
     if (componentUrlRegex.test(content)) {
       content = content.replace(componentUrlRegex, `component-url="/${normalizedBasePath}/assets/`);
       modified = true;
