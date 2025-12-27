@@ -2,7 +2,7 @@
 
 /**
  * Fix asset paths in built HTML files for GitHub Pages subdirectory deployment.
- * This script adds the BASE_PATH prefix to all asset URLs that are missing it.
+ * This script adds BASE_PATH prefix to all asset URLs that are missing it.
  */
 
 import fs from 'fs';
@@ -12,7 +12,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Read the .env file to get the BASE_PATH
+// Read .env file to get's BASE_PATH
 const envPath = path.join(__dirname, '..', '.env');
 let basePath = '';
 
@@ -45,35 +45,35 @@ function fixAssetPathsInFile(filePath) {
     let modified = false;
 
     // Fix component-url attributes (only if not already prefixed)
-    const componentUrlRegex = new RegExp(`component-url="\\/(?!${normalizedBasePath}|${normalizedBasePath}/)assets/`, 'g');
+    const componentUrlRegex = new RegExp(`component-url="\\/(?!${normalizedBasePath}\\/)([^"]+)"`, 'g');
     if (componentUrlRegex.test(content)) {
-      content = content.replace(componentUrlRegex, `component-url="/${normalizedBasePath}/assets/`);
+      content = content.replace(componentUrlRegex, `component-url="/${normalizedBasePath}/$1"`);
       modified = true;
     }
     
     // Fix renderer-url attributes (only if not already prefixed)
-    const rendererUrlRegex = new RegExp(`renderer-url="\\/(?!${normalizedBasePath}/)assets/`, 'g');
+    const rendererUrlRegex = new RegExp(`renderer-url="\\/(?!${normalizedBasePath}\\/)([^"]+)"`, 'g');
     if (rendererUrlRegex.test(content)) {
-      content = content.replace(rendererUrlRegex, `renderer-url="/${normalizedBasePath}/assets/`);
+      content = content.replace(rendererUrlRegex, `renderer-url="/${normalizedBasePath}/$1"`);
       modified = true;
     }
     
     // Fix href attributes for CSS files (only if not already prefixed)
-    const hrefCssRegex = new RegExp(`href="\\/(?!${normalizedBasePath}/)assets/`, 'g');
+    const hrefCssRegex = new RegExp(`href="\\/(?!${normalizedBasePath}\\/)([^"]+\\.css)"`, 'g');
     if (hrefCssRegex.test(content)) {
-      content = content.replace(hrefCssRegex, `href="/${normalizedBasePath}/assets/`);
+      content = content.replace(hrefCssRegex, `href="/${normalizedBasePath}/$1"`);
       modified = true;
     }
     
     // Fix src attributes for JS files (only if not already prefixed)
-    const srcJsRegex = new RegExp(`src="\\/(?!${normalizedBasePath}/)assets/`, 'g');
+    const srcJsRegex = new RegExp(`src="\\/(?!${normalizedBasePath}\\/)([^"]+\\.js)"`, 'g');
     if (srcJsRegex.test(content)) {
-      content = content.replace(srcJsRegex, `src="/${normalizedBasePath}/assets/`);
+      content = content.replace(srcJsRegex, `src="/${normalizedBasePath}/$1"`);
       modified = true;
     }
     
     // Fix favicon href (only if not already prefixed)
-    const faviconRegex = new RegExp(`href="\\/(?!${normalizedBasePath}/)favicon\\.svg"`, 'g');
+    const faviconRegex = /href="\/favicon\.svg"/g;
     if (faviconRegex.test(content)) {
       content = content.replace(faviconRegex, `href="/${normalizedBasePath}/favicon.svg"`);
       modified = true;
@@ -81,7 +81,7 @@ function fixAssetPathsInFile(filePath) {
     
     // Fix src attributes for images (only if not already prefixed and not external URLs)
     // Matches: src="/detlef/..." but not: src="/zeiler_me_pages/..." or src="http://..."
-    const imgSrcRegex = new RegExp(`src="\\/(?!${normalizedBasePath}/)(?!https?:\\/\\/)(?!data:)([^"]+\\.(?:jpg|jpeg|png|gif|svg|webp|avif))"`, 'g');
+    const imgSrcRegex = new RegExp(`src="\\/(?!${normalizedBasePath}\\/)(?!https?:\\/\\/)(?!data:)([^"]+\\.(?:jpg|jpeg|png|gif|svg|webp|avif))"`, 'g');
     if (imgSrcRegex.test(content)) {
       content = content.replace(imgSrcRegex, `src="/${normalizedBasePath}/$1"`);
       modified = true;
@@ -89,13 +89,13 @@ function fixAssetPathsInFile(filePath) {
     
     // Fix href attributes for links (only if not already prefixed and not external URLs)
     // Matches: href="/detlef/..." but not: href="/zeiler_me_pages/..." or href="http://..." or href="#..."
-    const linkHrefRegex = new RegExp(`href="\\/(?!${normalizedBasePath}/)(?!https?:\\/\\/)(?!#)(?!mailto:)([^"]+)"`, 'g');
+    const linkHrefRegex = new RegExp(`href="\\/(?!${normalizedBasePath}\\/)(?!https?:\\/\\/)(?!#)(?!mailto:)([^"]+)"`, 'g');
     if (linkHrefRegex.test(content)) {
       content = content.replace(linkHrefRegex, `href="/${normalizedBasePath}/$1"`);
       modified = true;
     }
 
-    // Write the modified content back to the file
+    // Write modified content back to file
     if (modified) {
       fs.writeFileSync(filePath, content, 'utf-8');
       console.log(`Fixed asset paths in: ${path.relative(distDir, filePath)}`);
@@ -113,9 +113,9 @@ function fixAssetPathsInJSFile(filePath) {
 
     // Fix dynamic import() calls with asset URLs
     // Matches: import("/assets/...") but not: import("/zeiler_me_pages/assets/...")
-    const importRegex = new RegExp(`import\\("/(?!${normalizedBasePath}/)([^"]+)"`, 'g');
+    const importRegex = new RegExp(`import\\("/\\/(?!${normalizedBasePath}\\/)([^"]+)"\\)`, 'g');
     if (importRegex.test(content)) {
-      content = content.replace(importRegex, `import("/${normalizedBasePath}/$1"`);
+      content = content.replace(importRegex, `import("/${normalizedBasePath}/$1")`);
       modified = true;
     }
 
@@ -135,10 +135,10 @@ function fixAssetPathsInCSSFile(filePath) {
     let content = fs.readFileSync(filePath, 'utf-8');
     let modified = false;
 
-    // Fix href attributes for CSS files (only if not already prefixed)
-    const hrefCssRegex = new RegExp(`href="\\/(?!${normalizedBasePath}/)assets/`, 'g');
-    if (hrefCssRegex.test(content)) {
-      content = content.replace(hrefCssRegex, `href="/${normalizedBasePath}/assets/`);
+    // Fix url() references in CSS files (only if not already prefixed)
+    const urlRegex = new RegExp(`url\\("/\\/(?!${normalizedBasePath}\\/)([^"]+)"\\)`, 'g');
+    if (urlRegex.test(content)) {
+      content = content.replace(urlRegex, `url("/${normalizedBasePath}/$1")`);
       modified = true;
     }
 

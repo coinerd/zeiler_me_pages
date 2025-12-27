@@ -232,19 +232,24 @@ function parseMarkdownFile(filePath, relativePath) {
   
   // Use discovered images if any found, otherwise fall back to frontmatter
   // This ensures we prioritize actual file structure over potentially incorrect frontmatter
+  console.log(`\n=== DIAGNOSTIC LOG for ${normalizedRelativePath} ===`);
+  console.log(`BASE_PATH: "${basePath}"`);
+  console.log(`File directory relative: "${fileDirRelative}"`);
+  console.log(`Frontmatter images:`, JSON.stringify(data.images || [], null, 2));
+  console.log(`Discovered images:`, JSON.stringify(discoveredImages, null, 2));
+  console.log(`Using discovered images: ${discoveredImages.length > 0}`);
+  
   const images = discoveredImages.length > 0 ? discoveredImages : (data.images || []);
+  console.log(`Selected images array:`, JSON.stringify(images, null, 2));
 
-  // Process image URLs to be absolute (add BASE_PATH prefix)
-  console.log(`DEBUG: Processing images for ${normalizedRelativePath}:`, JSON.stringify(images, null, 2));
+  // NOTE: We do NOT add BASE_PATH prefix here because Astro will handle it automatically
+  // via the 'base' configuration in astro.config.mjs
   const processedImages = images.map(img => {
-    const finalUrl = img.url ? (img.url.startsWith('/') ? (basePath + img.url) : (basePath + '/' + img.url)) : null;
-    console.log(`DEBUG: Image URL processed: ${img.url} -> ${finalUrl}`);
-    return {
-      ...img,
-      url: finalUrl,
-    };
+    console.log(`Image URL (no transformation, Astro will add BASE_PATH): "${img.url}"`);
+    return img;
   }).filter(img => img.url);
-  console.log(`DEBUG: Final processed images:`, JSON.stringify(processedImages, null, 2));
+  console.log(`Final processed images:`, JSON.stringify(processedImages, null, 2));
+  console.log(`=== END DIAGNOSTIC LOG ===\n`);
 
   return {
     title: cleanTitle(title),
