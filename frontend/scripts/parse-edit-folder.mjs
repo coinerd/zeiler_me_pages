@@ -60,16 +60,16 @@ const fixRelativeLinks = (body, relativePath, urlPath) => {
   console.log(`Markdown file directory: ${mdDir}`);
   console.log(`Deployed URL directory: ${deployedDir}`);
   
-  // Check if the deployed directory is deeper than the markdown file directory
+  // Check if the deployed directory is different from the markdown file directory
   // This happens when a .md file like "textinterpretation.md" is deployed as "/detlef/deutsch/textinterpretation/"
   const mdDepth = mdDir.split('/').filter(p => p).length;
   const deployedDepth = deployedDir.split('/').filter(p => p).length;
   
   console.log(`Markdown depth: ${mdDepth}, Deployed depth: ${deployedDepth}`);
   
-  if (deployedDepth > mdDepth) {
+  if (deployedDepth !== mdDepth) {
     const depthDiff = deployedDepth - mdDepth;
-    console.log(`Depth difference: ${depthDiff} - need to add ${depthDiff} "../" prefix to relative links`);
+    console.log(`Depth difference: ${depthDiff}`);
     
     // Fix relative links that don't start with / or http
     // Match markdown links: [text](path) or <a href="path">
@@ -81,12 +81,16 @@ const fixRelativeLinks = (body, relativePath, urlPath) => {
           return match;
         }
         
-        // Add the required number of ../ prefixes
-        const goUp = '../'.repeat(depthDiff);
-        const newLinkPath = goUp + linkPath;
+        // Convert relative link to absolute path
+        // The linkPath is relative to the markdown file's directory
+        // We need to convert it to an absolute path from the root
+        const absolutePath = '/' + mdDir + '/' + linkPath;
         
-        console.log(`  Fixed relative link: ${linkPath} -> ${newLinkPath}`);
-        return prefix + newLinkPath + suffix;
+        // Remove .html extension if present (already handled by replaceOldLinks, but just in case)
+        const cleanPath = absolutePath.replace(/\.html$/, '/');
+        
+        console.log(`  Fixed relative link: ${linkPath} -> ${cleanPath}`);
+        return prefix + cleanPath + suffix;
       }
     );
     
